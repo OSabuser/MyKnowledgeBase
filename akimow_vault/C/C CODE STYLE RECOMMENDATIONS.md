@@ -1,31 +1,4 @@
-
-
-## Table of Contents
-
-[](https://github.com/MaJerle/c-code-style#table-of-contents)
-
-- [Recommended C style and coding rules](https://github.com/MaJerle/c-code-style#recommended-c-style-and-coding-rules)
-    - [Table of Contents](https://github.com/MaJerle/c-code-style#table-of-contents)
-    - [The single most important rule](https://github.com/MaJerle/c-code-style#the-single-most-important-rule)
-    - [Integration with VSCode](https://github.com/MaJerle/c-code-style#integration-with-vscode)
-    - [Conventions used](https://github.com/MaJerle/c-code-style#conventions-used)
-    - [General rules](https://github.com/MaJerle/c-code-style#general-rules)
-    - [Comments](https://github.com/MaJerle/c-code-style#comments)
-    - [Functions](https://github.com/MaJerle/c-code-style#functions)
-    - [Variables](https://github.com/MaJerle/c-code-style#variables)
-    - [Structures, enumerations, typedefs](https://github.com/MaJerle/c-code-style#structures-enumerations-typedefs)
-    - [Compound statements](https://github.com/MaJerle/c-code-style#compound-statements)
-        - [Switch statement](https://github.com/MaJerle/c-code-style#switch-statement)
-    - [Macros and preprocessor directives](https://github.com/MaJerle/c-code-style#macros-and-preprocessor-directives)
-    - [Documentation](https://github.com/MaJerle/c-code-style#documentation)
-    - [Header/source files](https://github.com/MaJerle/c-code-style#headersource-files)
-    - [Clang format integration](https://github.com/MaJerle/c-code-style#clang-format-integration)
-    - [Artistic style configuration](https://github.com/MaJerle/c-code-style#artistic-style-configuration)
-    - [Eclipse formatter](https://github.com/MaJerle/c-code-style#eclipse-formatter)
-
 ## The single most important rule
-
-[](https://github.com/MaJerle/c-code-style#the-single-most-important-rule)
 
 Let's start with the quote from [GNOME developer](https://developer.gnome.org/documentation/guidelines/programming/coding-style.html) site.
 
