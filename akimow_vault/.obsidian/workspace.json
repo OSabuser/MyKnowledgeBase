@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown/Basic syntax.md",
+                "file": "C/C CODE STYLE RECOMMENDATIONS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic syntax"
-            }
-          },
-          {
-            "id": "7f7718214b2e3350",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RaspberryPi/Boot flow configuration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Boot flow configuration"
+              "title": "C CODE STYLE RECOMMENDATIONS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,34 +175,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f7718214b2e3350",
+  "active": "f87b5c296998a983",
   "lastOpenFiles": [
-    "Markdown/Basic syntax.md",
-    "RaspberryPi/Boot flow configuration.md",
-    "Linux/SSH/SSH Basics.md",
-    "Linux/CLI HINTS/CLI autocompletion.md",
-    "scp_options.png",
+    "Добро пожаловать.md",
+    "C/C CODE STYLE RECOMMENDATIONS.md",
+    "C/Attachments/62592556.png",
+    "C/Attachments/vscode-settings.png",
+    "C/Attachments/107173613.png",
+    "C/Attachments 1",
+    "HTML import",
+    "Linux/BASH.md",
+    "C/GNU GCC Extensions.md",
+    "C/GCC GNU EXTENSIONS.md",
+    "C/Искусство упаковки структур в C.md",
+    "C/Struct packing.md",
+    "C/Attachments/logo_640x640_tilda18137091.png",
+    "C/Attachments/83b0fbfe-fd4f-46c4-9115-c6f8f27a3180.png",
+    "C/Attachments/ya_logo.png",
+    "C/Attachments/Avatar_kvadrat_VC-Budu_1000h1000.png",
+    "C/Attachments/avatar(2).png",
+    "C/Attachments/avatar(1).png",
+    "C/Attachments/avatar.png",
+    "C/Attachments",
     "Linux/CLI HINTS/History.md",
+    "Linux/CLI HINTS/CLI autocompletion.md",
+    "Linux/SSH/SSH Basics.md",
+    "RaspberryPi/Boot flow configuration.md",
+    "Markdown/Basic syntax.md",
     "Obsidian",
     "RaspberryPi",
     "CMAKE",
     "Rust/TEST.md",
-    "Добро пожаловать.md",
     "C/Books",
     "Markdown/Books",
     "Linux/Books",
     "Markdown/de392687-0120-423c-b71a-b8d3f26985e5.yadisk-drop",
     "Markdown/Basic Syntax.md",
-    "Markdown/Attachments/book-cover.jpg",
-    "Markdown/Attachments/shiprock.jpg",
-    "Markdown/Attachments/san-juan-mountains.jpg",
-    "Markdown/Attachments/tux.png",
-    "Markdown/Attachments/markdown-mark-white.svg",
-    "Markdown/Attachments",
-    "HTML import",
-    "HTML import/Неустранимые ошибки с panic! - Язык программирования Rust.md",
-    "HTML import/Attachments/panics.svg",
-    "Pasted image 20241101114646.png",
-    "Linux/CLI HINTS"
+    "HTML import/Неустранимые ошибки с panic! - Язык программирования Rust.md"
   ]
 }

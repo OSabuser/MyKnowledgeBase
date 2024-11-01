@@ -18,7 +18,8 @@
 	`/home/<user_name>/.config/lxsession/LXDE-pi/autostart``  
 	***Если файл autostart существует в /home/<user_name>/.config/lxsession/LXDE-pi, то системный autostart игнорируется*** 
 	[Pi Forum](https://forums.raspberrypi.com/viewtopic.php?t=294014)
- 5. **Скрыть курсор и панель задач**
+
+5. **Скрыть курсор и панель задач**
 	 Закомментировать строчки в `etc/xdg/lxsession/LXDE-pi/autostart` :
 	 `@pcmanfm --desktop ` 
 	 `@lxpanel --profile`  
@@ -27,5 +28,3 @@
 		 `xserver-command = X -nocursor`
 	 - В файле *usr/bin/startx*:
 		 `defaultserverargs="-nocursor"`
-			
-			
