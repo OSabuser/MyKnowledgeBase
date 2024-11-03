@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/C CODE STYLE RECOMMENDATIONS.md",
+                "file": "RaspberryPi/Static IP address.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C CODE STYLE RECOMMENDATIONS"
+              "title": "Static IP address"
             }
           }
         ]
@@ -175,33 +175,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f87b5c296998a983",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "RaspberryPi/Static IP addres.md",
+    "RaspberryPi/Static IP address.md",
+    "RaspberryPi/Attachments/missing-image.svg",
+    "RaspberryPi/Attachments/uZRTVCXZb8k7wpWPM66rUL-320-80.png",
+    "RaspberryPi/Attachments/YB5qWTEaSG5n7f9itqSRHB-320-80.png",
+    "RaspberryPi/Attachments/9ckMqBJ6oaMcs3EcRivXe6-320-80.png",
+    "RaspberryPi/Attachments/TuheXMwnUkyXvPxrJKLQkY-320-80.png",
+    "RaspberryPi/Attachments/rfUq5BF6FSkSatTQVd2uDj-320-80.png",
+    "RaspberryPi/Attachments/CA.svg",
+    "RaspberryPi/Attachments/AU.svg",
+    "RaspberryPi/Attachments/GB.svg",
+    "RaspberryPi/Attachments/US.svg",
+    "RaspberryPi/Attachments",
+    "Markdown/Basic syntax.md",
+    "RaspberryPi/Boot flow configuration.md",
+    "Rust/Типы умных указателей.md",
+    "C/Искусство упаковки структур в C.md",
     "Добро пожаловать.md",
     "C/C CODE STYLE RECOMMENDATIONS.md",
-    "C/Attachments/62592556.png",
-    "C/Attachments/vscode-settings.png",
-    "C/Attachments/107173613.png",
+    "C/GNU GCC Extensions.md",
     "C/Attachments 1",
     "HTML import",
     "Linux/BASH.md",
-    "C/GNU GCC Extensions.md",
     "C/GCC GNU EXTENSIONS.md",
-    "C/Искусство упаковки структур в C.md",
     "C/Struct packing.md",
-    "C/Attachments/logo_640x640_tilda18137091.png",
-    "C/Attachments/83b0fbfe-fd4f-46c4-9115-c6f8f27a3180.png",
-    "C/Attachments/ya_logo.png",
-    "C/Attachments/Avatar_kvadrat_VC-Budu_1000h1000.png",
-    "C/Attachments/avatar(2).png",
-    "C/Attachments/avatar(1).png",
-    "C/Attachments/avatar.png",
     "C/Attachments",
     "Linux/CLI HINTS/History.md",
     "Linux/CLI HINTS/CLI autocompletion.md",
     "Linux/SSH/SSH Basics.md",
-    "RaspberryPi/Boot flow configuration.md",
-    "Markdown/Basic syntax.md",
     "Obsidian",
     "RaspberryPi",
     "CMAKE",
@@ -209,7 +213,6 @@
     "C/Books",
     "Markdown/Books",
     "Linux/Books",
-    "Markdown/de392687-0120-423c-b71a-b8d3f26985e5.yadisk-drop",
     "Markdown/Basic Syntax.md",
     "HTML import/Неустранимые ошибки с panic! - Язык программирования Rust.md"
   ]
