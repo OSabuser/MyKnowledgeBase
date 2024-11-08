@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/BASH/Run Bash Script as a Daemon.md",
+                "file": "Linux/BASH/ANSI COLORS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Run Bash Script as a Daemon"
+              "title": "ANSI COLORS"
             }
           }
         ]
@@ -73,8 +73,7 @@
               "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,9 +175,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e83105a7e233fdc4",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Linux/BASH/Run Bash Script as a Daemon.md",
+    "Linux/BASH/ANSI COLORS.md",
     "Linux/BASH/Attachments/whiteleaf.svg",
     "Linux/BASH/Attachments/logo(1).svg",
     "Linux/BASH/Attachments/logo.svg",
