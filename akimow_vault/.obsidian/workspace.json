@@ -73,7 +73,8 @@
               "title": "Закладки"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f87b5c296998a983",
+  "active": "e83105a7e233fdc4",
   "lastOpenFiles": [
     "Linux/BASH/Run Bash Script as a Daemon.md",
     "Linux/BASH/Attachments/whiteleaf.svg",

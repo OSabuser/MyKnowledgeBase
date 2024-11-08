@@ -1,9 +1,5 @@
 
-## 1. Overview[](https://www.baeldung.com/linux/bash-daemon-script#overview)
-
-In this tutorial, we’ll learn how to run a bash script as a daemon in the background.
-
-## 2. Daemonizing Script as a Regular User[](https://www.baeldung.com/linux/bash-daemon-script#daemonizing-script-as-a-regular-user)
+## 1. Daemonizing Script as a Regular User[](https://www.baeldung.com/linux/bash-daemon-script#daemonizing-script-as-a-regular-user)
 
 **We can make use of bash processes to run our script in the background.** We launch background tasks or processes with the _&_ operator.
 
@@ -53,11 +49,11 @@ $ kill $(cat ./script.pid)
 
 **While the method we’ve seen here is straightforward, it does require extra user intervention for the startup and shutdown of the script.**
 
-## 3. Daemonizing Script System-Wide[](https://www.baeldung.com/linux/bash-daemon-script#daemonizing-script-system-wide)
+## 2. Daemonizing Script System-Wide[](https://www.baeldung.com/linux/bash-daemon-script#daemonizing-script-system-wide)
 
 We just learned how to run scripts in the background as regular users. Now, we’ll cover more sophisticated methods which allow us to control the script via the system’s service manager.
 
-### 3.1. Using _systemd_[](https://www.baeldung.com/linux/bash-daemon-script#1-using-systemd)
+### 2.1. Using _systemd_[](https://www.baeldung.com/linux/bash-daemon-script#1-using-systemd)
 
 **We can use _systemd_ [unit files](https://www.freedesktop.org/software/systemd/man/systemd.service.html) to launch our script at boot.** Unit files describe how the system should execute the given program.
 
@@ -104,7 +100,7 @@ After=network.target
 
 We can restart the service with _sudo systemctl restart script_daemon.service_. It will be auto-started at boot.
 
-### 3.2. Using _/etc/rc.local_[](https://www.baeldung.com/linux/bash-daemon-script#2-using-etcrclocal)
+### 2.2. Using _/etc/rc.local_[](https://www.baeldung.com/linux/bash-daemon-script#2-using-etcrclocal)
 
 The _/etc/rc.local_ file consists of commands that we want to run. Hence, we can just append the path to our script into this file:
 
@@ -125,3 +121,48 @@ To make it non-blocking, we can use the _nohup_ command with the _&_ operator th
 
 **Further, we should avoid this approach using the _/etc/rc.local_ file if _systemd_ is available as it is a legacy file.**
 
+
+## 3. Autostart  
+
+Using [systemd](https://www.freedesktop.org/software/systemd/man/) you should be able to run a script as a daemon by creating a simple unit. There are a lot of different [options](https://www.freedesktop.org/software/systemd/man/systemd.unit.html) you can add but this is about as simple as you can get.
+
+Say you have a script `/usr/bin/mydaemon`.
+
+```bash
+#!/bin/sh
+
+while true; do
+  date;
+  sleep 60;
+done
+```
+
+Don't forget to `sudo chmod +x /usr/bin/mydaemon`.
+
+Create a unit `/etc/systemd/system/mydaemon.service`.
+
+```bash
+[Unit]
+Description=My daemon
+
+[Service]
+ExecStart=/usr/bin/mydaemon
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target 
+```
+
+To start the daemon run
+
+```bash
+systemctl start mydaemon.service 
+```
+
+To start it at boot, enable it
+
+```bash
+systemctl enable mydaemon.service
+```
+
+_If_ on a systemd based system, which a majority of Linux distributions are today, this isn't really an external tool. The negative is that it won't work everywhere.
