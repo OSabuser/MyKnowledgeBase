@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Linux/BASH/ANSI COLORS.md",
-                "mode": "source",
-                "source": false
+                "file": "C/GET_OPT.pdf"
               },
-              "icon": "lucide-file",
-              "title": "ANSI COLORS"
+              "icon": "lucide-file-text",
+              "title": "GET_OPT"
             }
           }
         ]
@@ -177,22 +175,32 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Linux/BASH/Run Bash Script as a Daemon.md",
+    "C/Искусство упаковки структур в C.md",
+    "C/GET_OPT.pdf",
+    "C/Makefile Tutorial.md",
+    "C/C CODE STYLE RECOMMENDATIONS.md",
+    "C/GNU GCC Extensions.md",
+    "HTML import/Attachments/107173613.png",
+    "HTML import/Makefile Tutorial.md",
+    "HTML import/Attachments",
+    "Rust/Типы умных указателей.md",
+    "MCU/Интересные репозитории.md",
+    "MCU/Bootloader/Интересные статьи.md",
+    "Linux/FFMPEG/VIDEO SCALING & RESIZING.md",
+    "Linux/FFMPEG",
+    "Linux/BASH/DATE & TIME.md",
+    "Linux/BASH/Functions.md",
     "Linux/BASH/ANSI COLORS.md",
+    "Linux/BASH/Run Bash Script as a Daemon.md",
     "Linux/BASH/Attachments/whiteleaf.svg",
     "Linux/BASH/Attachments/logo(1).svg",
     "Linux/BASH/Attachments/logo.svg",
     "Linux/BASH/Attachments",
     "Linux/BASH",
-    "C/C CODE STYLE RECOMMENDATIONS.md",
-    "C/Искусство упаковки структур в C.md",
     "Linux/scp_options.png",
     "RaspberryPi/Boot flow configuration.md",
-    "Rust/Типы умных указателей.md",
     "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
     "Linux/SSH/SSH Basics.md",
-    "MCU/Интересные репозитории.md",
-    "MCU/Bootloader/Интересные статьи.md",
     "MCU/Bootloader",
     "Markdown/Basic syntax.md",
     "RaspberryPi/Static IP address.md",
@@ -202,22 +210,15 @@
     "RaspberryPi/Attachments/YB5qWTEaSG5n7f9itqSRHB-320-80.png",
     "RaspberryPi/Attachments/9ckMqBJ6oaMcs3EcRivXe6-320-80.png",
     "RaspberryPi/Attachments/TuheXMwnUkyXvPxrJKLQkY-320-80.png",
-    "RaspberryPi/Attachments/rfUq5BF6FSkSatTQVd2uDj-320-80.png",
     "RaspberryPi/Attachments",
     "Добро пожаловать.md",
-    "C/GNU GCC Extensions.md",
     "C/Attachments 1",
     "HTML import",
     "Linux/BASH.md",
     "C/GCC GNU EXTENSIONS.md",
     "C/Struct packing.md",
-    "C/Attachments",
     "Linux/CLI HINTS/History.md",
     "Linux/CLI HINTS/CLI autocompletion.md",
-    "Obsidian",
-    "RaspberryPi",
-    "Rust/TEST.md",
-    "Markdown/Basic Syntax.md",
-    "HTML import/Неустранимые ошибки с panic! - Язык программирования Rust.md"
+    "Rust/TEST.md"
   ]
 }

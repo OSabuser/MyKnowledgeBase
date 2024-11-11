@@ -1,0 +1,1 @@
+[Ссылка на Git](https://github.com/vampy/Makefile?tab=readme-ov-file#multiple-targets--section-48)
