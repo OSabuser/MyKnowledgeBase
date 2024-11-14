@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "akimow_vault/C/GNU GCC Extensions.md",
+                "file": "akimow_vault/MCU/Bootloader/Интересные статьи.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GNU GCC Extensions"
+              "title": "Интересные статьи"
             }
           }
         ]
@@ -176,13 +176,15 @@
   },
   "active": "bf3f01fd927e5e7a",
   "lastOpenFiles": [
+    "akimow_vault/MCU/Интересные репозитории.md",
+    "akimow_vault/Linux/SSH/SSH Basics.md",
+    "akimow_vault/Linux/BASH.md",
     "akimow_vault/C/Искусство упаковки структур в C.md",
     "akimow_vault/C/C CODE STYLE RECOMMENDATIONS.md",
+    "akimow_vault/C/GNU GCC Extensions.md",
     "akimow_vault/RaspberryPi/Static IP address.md",
     "akimow_vault/Linux/scp_options.png",
-    "akimow_vault/Linux/SSH/SSH Basics.md",
     "akimow_vault/Linux/CLI HINTS/History.md",
-    "akimow_vault/C/GNU GCC Extensions.md",
     "akimow_vault/RaspberryPi/Boot flow configuration.md"
   ]
 }
