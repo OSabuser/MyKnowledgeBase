@@ -1,4 +1,4 @@
-
+#C 
 
 GNU C provides several language features not found in ISO standard C. (The -pedantic option directs GCC to print a warning message if any of these features is used.) To test for the availability of these features in conditional compilation, check for a predefined macro `__GNUC__`, which is always defined under GCC.
 

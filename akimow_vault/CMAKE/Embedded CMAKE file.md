@@ -1,3 +1,4 @@
+#CMAKE #MCU
 
 Many embedded software engineers have had to deal with build systems that are either non cross-platform or a part of the IDE they are using, don't offer easy composability or per-library configuration, provide no testing support or ways to generate or package files without using a third party scripting language.
 

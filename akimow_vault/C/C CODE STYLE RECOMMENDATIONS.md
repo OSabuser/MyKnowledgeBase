@@ -1,3 +1,4 @@
+#C 
 ## The single most important rule
 
 Let's start with the quote from [GNOME developer](https://developer.gnome.org/documentation/guidelines/programming/coding-style.html) site.

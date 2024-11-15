@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MCU/Защищаем микроконтроллер. Как работает Firmware Hardening и Secure Boot на примере STM32.md",
+                "file": "MCU/Linker script.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Защищаем микроконтроллер. Как работает Firmware Hardening и Secure Boot на примере STM32"
+              "title": "Linker script"
             }
           }
         ]
@@ -176,16 +176,26 @@
       "graph:Граф": false
     }
   },
-  "active": "f87b5c296998a983",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "MCU/Защищаем микроконтроллер. Как работает Firmware Hardening и Secure Boot на примере STM32.md",
-    "MCU/Интересные репозитории.md",
+    "MCU/FMC SDRAM STM32.md",
+    "MCU/Firmware Hardening и Secure Boot на примере STM32.md",
+    "MCU/Different Ways of Software Configuration.md",
     "MCU/AWESOME_EMBEDDED.md",
+    "CMAKE/3 tips for using CMake with embedded software - Embedded.md",
+    "CMAKE/Embedded CMAKE file.md",
+    "C/Makefile Tutorial.md",
+    "C/Искусство упаковки структур в C.md",
+    "C/C code style recommendations.md",
+    "C/GNU GCC Extensions.md",
+    "CMAKE/Интересные материалы.md",
+    "C/A Modern C Development Environment.md",
+    "MCU/Linker script.md",
+    "MCU/Интересные репозитории.md",
+    "RaspberryPi/Static IP address.md",
     "MCU/Bootloader/Интересные статьи.md",
     "RaspberryPi/Boot flow configuration.md",
-    "RaspberryPi/Static IP address.md",
     "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
-    "C/C CODE STYLE RECOMMENDATIONS.md",
     "C/AWESOME_C.md",
     "Clippings/Sleep function in Windows, using C.md",
     "Clippings/FreeRTOS для чайников. Краткое описание 1.md",
@@ -201,21 +211,11 @@
     "HTML import/Attachments/putty.png",
     "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░ 3.jpg",
     "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░ 2.jpg",
-    "CMAKE/Embedded CMAKE file.md",
     "HTML import/Attachments/107173613.png",
     "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░ 1.jpg",
     "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░.jpg",
     "HTML import/Attachments",
-    "Linux/FFMPEG/Кодирование с кодеком HEVC.md",
-    "C/Makefile Tutorial.md",
-    "C/GNU GCC Extensions.md",
     "C/GET_OPT.pdf",
-    "Linux/FFMPEG/VIDEO SCALING & RESIZING.md",
-    "CMAKE/Интересные материалы.md",
-    "C/Искусство упаковки структур в C.md",
-    "Добро пожаловать.md",
-    "C/Makefile tutorial.md",
-    "Linux/CLI HINTS/History.md",
     "Linux/FFMPEG/Attachments/bf7146101640594432bf2349502aa314.jpg",
     "Linux/FFMPEG/Attachments/6ee74bd87dbf84e43cdcc0abd0d13a3f.png",
     "Linux/FFMPEG/Attachments",
