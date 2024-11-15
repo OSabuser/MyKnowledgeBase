@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c0089774dedb881a",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "8f101882beff88bd",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CMAKE/Интересные материалы.md",
+                "file": "MCU/Защищаем микроконтроллер. Как работает Firmware Hardening и Secure Boot на примере STM32.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Интересные материалы"
+              "title": "Защищаем микроконтроллер. Как работает Firmware Hardening и Secure Boot на примере STM32"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "line:(STM32)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,56 +172,57 @@
       "markdown-importer:Импорт Markdown-файлов": false,
       "homepage:Open homepage": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "graph:Граф": false
     }
   },
-  "active": "8f101882beff88bd",
+  "active": "f87b5c296998a983",
   "lastOpenFiles": [
-    "CMAKE/Embedded CMAKE file.md",
-    "CMAKE/Интересные материалы.md",
-    "MCU/AWESOME_EMBEDDED.md",
-    "C/AWESOME_C.md",
+    "MCU/Защищаем микроконтроллер. Как работает Firmware Hardening и Secure Boot на примере STM32.md",
     "MCU/Интересные репозитории.md",
+    "MCU/AWESOME_EMBEDDED.md",
+    "MCU/Bootloader/Интересные статьи.md",
+    "RaspberryPi/Boot flow configuration.md",
+    "RaspberryPi/Static IP address.md",
+    "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
+    "C/C CODE STYLE RECOMMENDATIONS.md",
+    "C/AWESOME_C.md",
+    "Clippings/Sleep function in Windows, using C.md",
+    "Clippings/FreeRTOS для чайников. Краткое описание 1.md",
+    "Clippings/FreeRTOS для чайников. Краткое описание.md",
+    "Clippings/Как понять сколько дать памяти задаче во FreeRTOS. Распределение памяти. Отладочные функции.md",
+    "Clippings",
+    "HTML import/Консольный интерфейс в микроконтроллере _.md",
+    "HTML import/vampy_Makefile_ Makefile Tutorial - learn make by example.md",
+    "Markdown/Basic syntax.md",
+    "reverse video.md",
+    "HTML import/Attachments/map.jpg",
+    "HTML import/Attachments/tee.png",
+    "HTML import/Attachments/putty.png",
+    "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░ 3.jpg",
+    "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░ 2.jpg",
+    "CMAKE/Embedded CMAKE file.md",
+    "HTML import/Attachments/107173613.png",
+    "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░ 1.jpg",
+    "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░.jpg",
+    "HTML import/Attachments",
+    "Linux/FFMPEG/Кодирование с кодеком HEVC.md",
     "C/Makefile Tutorial.md",
     "C/GNU GCC Extensions.md",
-    "C/C CODE STYLE RECOMMENDATIONS.md",
+    "C/GET_OPT.pdf",
+    "Linux/FFMPEG/VIDEO SCALING & RESIZING.md",
+    "CMAKE/Интересные материалы.md",
     "C/Искусство упаковки структур в C.md",
     "Добро пожаловать.md",
     "C/Makefile tutorial.md",
-    "HTML import/vampy_Makefile_ Makefile Tutorial - learn make by example.md",
-    "HTML import/Attachments/107173613.png",
-    "HTML import/Attachments",
-    "C/GET_OPT.pdf",
-    "MCU/Bootloader/Интересные статьи.md",
     "Linux/CLI HINTS/History.md",
-    "Linux/BASH.md",
-    "Linux/CLI HINTS/CLI autocompletion.md",
-    "Linux/SSH/SSH Basics.md",
-    "Linux/FFMPEG/VIDEO SCALING & RESIZING.md",
-    "Linux/FFMPEG/Кодирование с кодеком HEVC.md",
     "Linux/FFMPEG/Attachments/bf7146101640594432bf2349502aa314.jpg",
     "Linux/FFMPEG/Attachments/6ee74bd87dbf84e43cdcc0abd0d13a3f.png",
-    "Linux/FFMPEG/Attachments/059.png",
-    "Linux/FFMPEG/Attachments/141.png",
-    "Linux/FFMPEG/Attachments/026.png",
-    "Linux/FFMPEG/Attachments/714193dc8dd3ed954187b03e9504aa8a(1).png",
-    "Linux/FFMPEG/Attachments/7uo0_9itb0bkl_y8_0_n1a57vuc.jpeg",
-    "Linux/FFMPEG/Attachments/ee82b5fec9d5deb03c5031e062bb58f5.jpg",
-    "Linux/FFMPEG/Attachments/c5c2150203b8b29b58c5aafa6b8a3be0.png",
     "Linux/FFMPEG/Attachments",
-    "HTML import/Makefile Tutorial.md",
-    "Rust/Типы умных указателей.md",
     "Linux/FFMPEG",
-    "Linux/BASH/DATE & TIME.md",
-    "Linux/BASH/Functions.md",
-    "Linux/BASH/ANSI COLORS.md",
-    "Linux/BASH/Run Bash Script as a Daemon.md",
     "Linux/BASH/Attachments",
     "Linux/BASH",
-    "RaspberryPi/Boot flow configuration.md",
-    "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
     "MCU/Bootloader",
-    "RaspberryPi/Attachments",
-    "C/Attachments 1"
+    "RaspberryPi/Attachments"
   ]
 }
