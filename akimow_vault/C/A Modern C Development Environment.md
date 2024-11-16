@@ -1,3 +1,4 @@
+#C #DOCKER #CMAKE 
 Sometimes, `C/C++` projects have a long development cycle. When working on such a project, it can be easy to take our development environment for granted, and forget about the effort invested in its bring-up. The build environment works like *magic*, the test framework is neatly integrated, and the CI/CD pipeline relieves us of tedious, repetitive tasks.
 
 For me, all it took was a simple thought: How do I best develop a `C` library, consisting of only a handful of files, but developed out of the context of my current, comfortable development environment? And there I was, back in the cold reality of `C/C++`, where you have the freedom - or obligation - to choose the entire development environment yourself.
