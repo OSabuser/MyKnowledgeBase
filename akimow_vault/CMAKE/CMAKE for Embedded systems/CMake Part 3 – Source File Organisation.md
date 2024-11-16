@@ -460,27 +460,3 @@ $CMAKE -S . -B $BUILD_DIR --warn-uninitialized \
 $CMAKE --build $BUILD_DIR --no-print-directory -- $VERBOSE
 ```
 
-### Windows Build Script
-
-Developers working on Windows who install CMake will find that the default build generation targets the Microsoft [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019) compilers. Configuring CMake on Windows to cross compile using the Arm Embedded Toolchain is not straightforward and will be the subject of the next blog post [CMake Part 4 – Windows Hosts](https://feabhasblog.wpengine.com/2021/09/cmake-part-4-windows-10-host/) and will include a suitable example build script.
-
-- [About](https://blog.feabhas.com/2021/08/cmake-part-3-source-file-organisation/#abh_about)
-- [Latest Posts](https://blog.feabhas.com/2021/08/cmake-part-3-source-file-organisation/#abh_posts)
-
-[![Martin Bond](https://i0.wp.com/blog.feabhas.com/wp-content/uploads/gravatar/martin-bond-2014-600x600-1.jpg?w=250&ssl=1)](https://blog.feabhas.com/author/martinb/ "Martin Bond")
-
-An independent IT trainer Martin has over 40 years academic and commercial experience in open systems software engineering. He has worked with a range of technologies from real time process controllers, through compilers, to large scale parallel processing systems; and across multiple sectors including industrial systems, semi-conductor manufacturing, telecomms, banking, MoD, and government.
-
-[![Martin Bond](https://i0.wp.com/blog.feabhas.com/wp-content/uploads/gravatar/martin-bond-2014-600x600-1.jpg?w=250&ssl=1)](https://blog.feabhas.com/author/martinb/ "Martin Bond")
-
-Latest posts by Martin Bond ([see all](https://blog.feabhas.com/author/martinb/))
-
-- [CMake Presets](https://blog.feabhas.com/2023/08/cmake-presets/) - August 1, 2023
-- [C++20 Coroutine Iterators](https://blog.feabhas.com/2021/09/c20-coroutine-iterators/) - September 23, 2021
-- [C++20 Coroutines](https://blog.feabhas.com/2021/09/c20-coroutines/) - September 16, 2021
-
-[![](https://i0.wp.com/blog.feabhas.com/wp-content/uploads/2021/06/Martin-Bond-2014-600x600-1.jpg?resize=150%2C150&ssl=1)](https://blog.feabhas.com/author/martinb/)
-
-##### [Martin Bond](https://blog.feabhas.com/author/martinb/)
-
-An independent IT trainer Martin has over 40 years academic and commercial experience in open systems software engineering. He has worked with a range of technologies from real time process controllers, through compilers, to large scale parallel processing systems; and across multiple sectors including industrial systems, semi-conductor manufacturing, telecomms, banking, MoD, and government.

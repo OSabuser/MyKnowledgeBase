@@ -161,7 +161,7 @@ add_compile_definitions(
 
 **Note:** we need to define the compiler **DEBUG** symbol ourselves – it doesn’t happen automatically when we select the debug build type. The build type variable **CMAKE\_BUILD\_TYPE** is a CMake variable and not a linker or compiler defined symbol. The familiar syntax of using **\-D** on the command line to define CMake variables can be confusing when first using CMake as these are not definitions for the underlying compiler.
 
-As an alternative approach for the build type definition we could have simply inserted the **$<CONFIG>** generator expression as a compiler pre-processor definition:
+As an alternative approach for the build type definition we could have simply inserted the **CONFIG** generator expression as a compiler pre-processor definition:
 
 ```
 add_compile_definitions(
@@ -251,7 +251,7 @@ set(TOOLCHAIN_LD ${TOOLCHAIN}/arm-none-eabi-ld CACHE STRING "arm-none-eabi-ld")
 set(TOOLCHAIN_SIZE ${TOOLCHAIN}/arm-none-eabi-size CACHE STRING "arm-none-eabi-size")
 ```
 
-The **find\_program** function searches the host filesystem for the path to a given program which it stores in the variable name given as the first parameter. If the program isn’t found, the variable is set to *<name>-NOTFOUND*, in our case **CROSS\_GCC\_PATH-NOTFOUND**. We can check that the ARM compiler has been found by testing  **CROSS\_GCC\_PATH**:variable values ending with **\-NOTFOUND** evaluate to false.
+The **find\_program** function searches the host filesystem for the path to a given program which it stores in the variable name given as the first parameter. If the program isn’t found, the variable is set to *name-NOTFOUND*, in our case **CROSS\_GCC\_PATH-NOTFOUND**. We can check that the ARM compiler has been found by testing  **CROSS\_GCC\_PATH**:variable values ending with **\-NOTFOUND** evaluate to false.
 
 Our search is complicated because we haven’t put the Arm toolchain in the standard Linux folders (such as **/usr/bin**), so we have to extract the directory path part of t**he arm-none-eabi-gcc** command so we can get the toolchain directory location with **get\_filename\_component**.
 
@@ -350,24 +350,3 @@ $CMAKE --build $BUILD_DIR -- $VERBOSE
 ### Windows Build Script
 
 Developers working on Windows who install CMake will find that the default build generation targets the Microsoft [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019) compilers. Configuring CMake on Windows to cross compile using the Arm Embedded Toolchain is not straightforward and is the subject of a later blog post [CMake Part 4 – Windows Hosts](https://feabhasblog.wpengine.com/2021/09/cmake-part-4-windows-10-host/) including a suitable example PowerShell script.
-
-- [About](https://blog.feabhas.com/2021/07/cmake-part-2-release-and-debug-builds/#abh_about)
-- [Latest Posts](https://blog.feabhas.com/2021/07/cmake-part-2-release-and-debug-builds/#abh_posts)
-
-[![Martin Bond](https://i0.wp.com/blog.feabhas.com/wp-content/uploads/gravatar/martin-bond-2014-600x600-1.jpg?w=250&ssl=1)](https://blog.feabhas.com/author/martinb/ "Martin Bond")
-
-An independent IT trainer Martin has over 40 years academic and commercial experience in open systems software engineering. He has worked with a range of technologies from real time process controllers, through compilers, to large scale parallel processing systems; and across multiple sectors including industrial systems, semi-conductor manufacturing, telecomms, banking, MoD, and government.
-
-[![Martin Bond](https://i0.wp.com/blog.feabhas.com/wp-content/uploads/gravatar/martin-bond-2014-600x600-1.jpg?w=250&ssl=1)](https://blog.feabhas.com/author/martinb/ "Martin Bond")
-
-Latest posts by Martin Bond ([see all](https://blog.feabhas.com/author/martinb/))
-
-- [CMake Presets](https://blog.feabhas.com/2023/08/cmake-presets/) - August 1, 2023
-- [C++20 Coroutine Iterators](https://blog.feabhas.com/2021/09/c20-coroutine-iterators/) - September 23, 2021
-- [C++20 Coroutines](https://blog.feabhas.com/2021/09/c20-coroutines/) - September 16, 2021
-
-[![](https://i0.wp.com/blog.feabhas.com/wp-content/uploads/2021/06/Martin-Bond-2014-600x600-1.jpg?resize=150%2C150&ssl=1)](https://blog.feabhas.com/author/martinb/)
-
-##### [Martin Bond](https://blog.feabhas.com/author/martinb/)
-
-An independent IT trainer Martin has over 40 years academic and commercial experience in open systems software engineering. He has worked with a range of technologies from real time process controllers, through compilers, to large scale parallel processing systems; and across multiple sectors including industrial systems, semi-conductor manufacturing, telecomms, banking, MoD, and government.
