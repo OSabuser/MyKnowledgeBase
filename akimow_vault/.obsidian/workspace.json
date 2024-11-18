@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "43894648b5e635ca",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "1b8898d02cdcbd02",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VSCODE/Embedded/GNU Coverage (gcov) for an Embedded Target with VS Code.md",
+                "file": "MCU/Embedded C-C++ Unit Testing Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GNU Coverage (gcov) for an Embedded Target with VS Code"
+              "title": "Embedded C-C++ Unit Testing Basics"
             }
           }
         ]
@@ -178,6 +178,17 @@
   },
   "active": "f87b5c296998a983",
   "lastOpenFiles": [
+    "CMAKE/CMAKE for Embedded systems/CMake Part 1 - The Dark Arts.md",
+    "MCU/Embedded C-C++ Unit Testing Basics.md",
+    "Clippings",
+    "MCU/Без названия.md",
+    "CMAKE/CMAKE for Embedded systems/CMake Part 0 -Why We Need Build Systems.md",
+    "DOCKER/Docker for Embedded Systems/Part 2 Building Images.md",
+    "DOCKER/Docker for Embedded Systems/Part 1 Getting Started.md",
+    "VSCODE/Embedded/VS Code Cure the Extension Creep with Profiles.md",
+    "DOCKER/CICD for Embedded with VS Code, Docker and GitHub Actions.md",
+    "DOCKER/Docker Tutorial.md",
+    "VSCODE/Embedded/GNU Coverage (gcov) for an Embedded Target with VS Code.md",
     "C/Интересные репозитории.md",
     "VSCODE/Embedded",
     "MCU/Firmware Hardening и Secure Boot на примере STM32.md",
@@ -188,7 +199,6 @@
     "Markdown/Basic syntax.md",
     "CMAKE/Интересные материалы.md",
     "CMAKE/3 tips for using CMake with embedded software - Embedded.md",
-    "CMAKE/CMAKE for Embedded systems/CMake Part 0 -Why We Need Build Systems.md",
     "CMAKE/Embedded CMAKE file.md",
     "CMAKE/CMAKE for VS Code.md",
     "MCU/Middleware/LittleFS/LittleFS File System with MCU Internal FLASH Memory.md",
@@ -197,15 +207,7 @@
     "Rust/rust_ptrs.png",
     "Rust/Типы умных указателей.md",
     "C/Makefile Tutorial.md",
-    "C/C code style recommendations.md",
-    "C/AWESOME_C.md",
     "C/GET_OPT.pdf",
-    "C/GNU GCC Extensions.md",
-    "C/A Modern C Development Environment.md",
-    "VSCODE/Embedded/VSCODE NXP/VS Code MCUXpresso SDK Repository.md",
-    "VSCODE/Embedded/VSCODE NXP/VS Code MCUXpresso Installer.md",
-    "VSCODE/Embedded/VSCODE NXP/VS Code MCUXpresso Extension.md",
-    "VSCODE/Embedded/VSCODE NXP/VS Code Import Example from MCUXpresso Repository.md",
     "MCU/Middleware/LittleFS",
     "MCU/Middleware",
     "MCU/LittleFS",
@@ -213,7 +215,6 @@
     "VSCODE",
     "VSCODE/Embedded/VSCODE NXP/CMAKE iMXRT",
     "DOCKER/Docker for Embedded Systems",
-    "DOCKER",
     "HTML import/Attachments/map.jpg",
     "HTML import/Attachments/tee.png",
     "HTML import/Attachments/putty.png",
