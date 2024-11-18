@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VSCODE/VSCODE NXP/VS Code MCUXpresso SDK Repository.md",
+                "file": "C/Искусство упаковки структур в C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VS Code MCUXpresso SDK Repository"
+              "title": "Искусство упаковки структур в C"
+            }
+          },
+          {
+            "id": "3e98e8b7ead4fd93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markdown/Basic syntax.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basic syntax"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,8 +191,19 @@
       "graph:Граф": false
     }
   },
-  "active": "f87b5c296998a983",
+  "active": "3e98e8b7ead4fd93",
   "lastOpenFiles": [
+    "C/Makefile Tutorial.md",
+    "C/C code style recommendations.md",
+    "C/AWESOME_C.md",
+    "C/GET_OPT.pdf",
+    "C/GNU GCC Extensions.md",
+    "Интересные репозитории.md",
+    "C/Искусство упаковки структур в C.md",
+    "C/A Modern C Development Environment.md",
+    "MCU/Интересные репозитории.md",
+    "CMAKE/3 tips for using CMake with embedded software - Embedded.md",
+    "VSCODE/VSCODE NXP/VS Code MCUXpresso SDK Repository.md",
     "VSCODE/VSCODE NXP/VS Code MCUXpresso Installer.md",
     "VSCODE/VSCODE NXP/VS Code MCUXpresso Extension.md",
     "VSCODE/VSCODE NXP/VS Code Import Example from MCUXpresso Repository.md",
@@ -187,32 +213,22 @@
     "VSCODE/GNU Coverage (gcov) for an Embedded Target with VS Code.md",
     "MCU/Middleware/LittleFS/Add extra Storage to the Raspberry Pi Pico with W25Q128 and LittleFS.md",
     "MCU/Middleware/LittleFS",
-    "MCU/Интересные репозитории.md",
     "MCU/Middleware",
     "MCU/LittleFS",
     "CMAKE/Интересные материалы.md",
     "VSCODE/VSCODE NXP/CMAKE iMXRT/Modern On-Target  Embedded System Testing with CMake and CTest.md",
     "VSCODE/VSCODE NXP/CMAKE iMXRT/Building a Triumvirate From Eclipse CDT to CMake, CMD and Visual Studio Code.md",
     "VSCODE/VSCODE NXP/CMAKE iMXRT/Building with CMake Presets.md",
-    "CMAKE/3 tips for using CMake with embedded software - Embedded.md",
     "CMAKE/CMAKE for VS Code.md",
     "CMAKE/Embedded CMAKE file.md",
     "MCU/Embedded GCC Standard Library.md",
     "Clippings/Which Embedded GCC Standard Library newlib, newlib-nano, ….md",
-    "MCU/AWESOME_EMBEDDED.md",
-    "MCU/Different Ways of Software Configuration.md",
-    "MCU/Firmware Hardening и Secure Boot на примере STM32.md",
-    "MCU/Linker script.md",
-    "MCU/Middleware/LittleFS/LittleFS File System with MCU Internal FLASH Memory.md",
-    "VSCODE/VSCODE NXP/VS Code MCUXpresso SDK Repository.md",
-    "VSCODE/VS Code Data Breakpoints and Watchpoints.md",
     "VSCODE/VSCODE NXP",
     "VSCODE",
     "VSCODE/VSCODE NXP/CMAKE iMXRT",
     "DOCKER/Docker for Embedded Systems",
     "DOCKER",
     "CMAKE/CMAKE for Embedded systems",
-    "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
     "HTML import/Attachments/map.jpg",
     "HTML import/Attachments/tee.png",
     "HTML import/Attachments/putty.png",
