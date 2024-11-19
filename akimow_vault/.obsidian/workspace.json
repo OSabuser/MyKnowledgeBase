@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "English learning/Герундий и инфинитив.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Герундий и инфинитив"
             }
           }
         ]
@@ -174,6 +178,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "English learning/Глагол GET и его производные фразовые глаголы..md",
+    "Clippings/(1) Английский Skysmart.md",
+    "English learning/Герундий и инфинитив.md",
+    "English learning/Времена глаголов.md",
+    "Clippings/Времена глаголов в английском языке — условия формирования, правила, таблица глаголов.md",
+    "Clippings/Глагол GET и его производные фразовые глаголы. Get Got Got (Gotten) - 3 формы в английском языке.md",
+    "Clippings/(1) • Английский Skysmart.md",
+    "English learning/Без названия.md",
+    "English learning.md",
+    "English learning",
+    "Clippings",
     "CMAKE/CMAKE for Embedded systems/CMake Part 2 - Release and Debug builds.md",
     "CMAKE/CMAKE for Embedded systems/CMake Part 0 -Why We Need Build Systems.md",
     "CMAKE/CMAKE for Embedded systems/CMake Presets.md",
@@ -191,18 +206,8 @@
     "CMAKE/CMAKE for VS Code.md",
     "CMAKE/Embedded CMAKE file.md",
     "RaspberryPi/Static IP address.md",
-    "RaspberryPi/rc.local.md",
-    "RaspberryPi/Boot flow configuration.md",
-    "RaspberryPi/HINTS.md",
     "Linux/FFMPEG/Attachments/yiedofhit2lyvcjkrwi_w52hwtc.jpeg",
     "RaspberryPi/Attachments/missing-image.svg",
-    "Linux/VLC.md",
-    "Linux/CLI HINTS/Остановка, возобновление процесса.md",
-    "Clippings/RA Family ID code protection (in case of protection enabled with Bit127=1 and Bit126=0)  Renesas Customer Hub.md",
-    "Clippings",
-    "MCU/prvTaskExitError( ).md",
-    "Linux/CLI HINTS/Запуск нескольких программ одновременно.md",
-    "Linux/CLI HINTS/Монтирование флэшки.md",
     "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
     "VSCODE/Embedded",
     "Rust/rust_ptrs.png",
@@ -212,7 +217,6 @@
     "MCU/LittleFS",
     "VSCODE/Embedded/VSCODE NXP",
     "VSCODE",
-    "VSCODE/Embedded/VSCODE NXP/CMAKE iMXRT",
     "HTML import/Attachments/map.jpg",
     "HTML import/Attachments/tee.png",
     "HTML import/Attachments/putty.png",
