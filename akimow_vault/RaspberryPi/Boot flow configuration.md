@@ -4,7 +4,6 @@
 	`cd `
 	`cd Desktop `
 	`sudo cp splash.png /usr/share/plymouth/themes/pix``
-
 2. **Обновление изображения**
 	`sudo plymouth-set-default-theme --rebuild-initrd pix`  
 
