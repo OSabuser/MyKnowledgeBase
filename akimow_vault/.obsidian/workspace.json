@@ -11,14 +11,13 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "MCU/Embedded C-C++ Unit Testing Basics.md",
-                "mode": "source",
-                "source": false
+                "file": "akimow_vault/CMAKE/Интересные материалы.md",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "Embedded C-C++ Unit Testing Basics"
+              "icon": "git-pull-request",
+              "title": "Diff View (Интересные материалы)"
             }
           }
         ]
@@ -176,10 +175,15 @@
       "graph:Граф": false
     }
   },
-  "active": "f87b5c296998a983",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CMAKE/CMAKE for Embedded systems/CMake Part 1 - The Dark Arts.md",
+    "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
+    "CMAKE/CMAKE for VS Code.md",
+    "how-to.md",
+    "CMAKE/Интересные материалы.md",
+    "CMAKE/3 tips for using CMake with embedded software - Embedded.md",
     "MCU/Embedded C-C++ Unit Testing Basics.md",
+    "CMAKE/CMAKE for Embedded systems/CMake Part 1 - The Dark Arts.md",
     "Clippings",
     "MCU/Без названия.md",
     "CMAKE/CMAKE for Embedded systems/CMake Part 0 -Why We Need Build Systems.md",
@@ -197,16 +201,11 @@
     "MCU/AWESOME_EMBEDDED.md",
     "MCU/Интересные репозитории.md",
     "Markdown/Basic syntax.md",
-    "CMAKE/Интересные материалы.md",
-    "CMAKE/3 tips for using CMake with embedded software - Embedded.md",
     "CMAKE/Embedded CMAKE file.md",
-    "CMAKE/CMAKE for VS Code.md",
     "MCU/Middleware/LittleFS/LittleFS File System with MCU Internal FLASH Memory.md",
     "MCU/Middleware/LittleFS/Add extra Storage to the Raspberry Pi Pico with W25Q128 and LittleFS.md",
     "C/Искусство упаковки структур в C.md",
     "Rust/rust_ptrs.png",
-    "Rust/Типы умных указателей.md",
-    "C/Makefile Tutorial.md",
     "C/GET_OPT.pdf",
     "MCU/Middleware/LittleFS",
     "MCU/Middleware",
