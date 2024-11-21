@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/X11/Прозрачность окон.md",
+                "file": "RaspberryPi/Autostart - Raspberry Pi OS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Прозрачность окон"
+              "title": "Autostart - Raspberry Pi OS"
             }
           }
         ]
@@ -178,6 +178,15 @@
   },
   "active": "f87b5c296998a983",
   "lastOpenFiles": [
+    "Linux/BASH/Run Bash Script as a Daemon.md",
+    "RaspberryPi/Autostart - Raspberry Pi OS.md",
+    "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
+    "RaspberryPi/Boot flow configuration.md",
+    "RaspberryPi/Static IP address.md",
+    "RaspberryPi/rc.local.md",
+    "Linux/BASH/ANSI COLORS.md",
+    "Linux/BASH/Functions.md",
+    "Linux/BASH/DATE & TIME.md",
     "Linux/X11/Прозрачность окон.md",
     "Linux/X11/Прозрачность окон.md",
     "Linux/X11",
@@ -202,17 +211,8 @@
     "English learning.md",
     "English learning",
     "Clippings",
-    "CMAKE/CMAKE for Embedded systems/CMake Part 2 - Release and Debug builds.md",
-    "CMAKE/CMAKE for Embedded systems/CMake Part 0 -Why We Need Build Systems.md",
-    "CMAKE/CMAKE for Embedded systems/CMake Presets.md",
-    "CMAKE/CMAKE for Embedded systems/CMake Part 4 – Windows 10 Host.md",
-    "DOCKER/Docker for Embedded Systems/Part 1 Getting Started.md",
-    "configure.md",
-    "MCU/Embedded GCC Standard Library.md",
-    "MCU/Embedded C-C++ Unit Testing Basics.md",
     "Linux/FFMPEG/Attachments/yiedofhit2lyvcjkrwi_w52hwtc.jpeg",
     "RaspberryPi/Attachments/missing-image.svg",
-    "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
     "VSCODE/Embedded",
     "Rust/rust_ptrs.png",
     "C/GET_OPT.pdf",
