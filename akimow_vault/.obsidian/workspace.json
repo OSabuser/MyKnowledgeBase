@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English learning/Герундий и инфинитив.md",
+                "file": "Linux/X11/Прозрачность окон.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Герундий и инфинитив"
+              "title": "Прозрачность окон"
             }
           }
         ]
@@ -176,11 +176,24 @@
       "graph:Граф": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f87b5c296998a983",
   "lastOpenFiles": [
+    "Linux/X11/Прозрачность окон.md",
+    "Linux/X11/Прозрачность окон.md",
+    "Linux/X11",
+    "Linux/SSH/SSH Basics.md",
+    "Linux/SSH/scp_options.png",
+    "C/A Modern C Development Environment.md",
+    "C/CLANG/ClangFormat.md",
+    "Clippings/ClangFormat — Clang 20.0.0git documentation.md",
+    "C/Интересные репозитории.md",
+    "C/CLANG/Clang-Format Style Options.md",
+    "C/CLANG",
+    "C/GCC",
+    "Clippings/Clang-Format Style Options — Clang 20.0.0git documentation.md",
+    "English learning/Герундий и инфинитив.md",
     "English learning/Глагол GET и его производные фразовые глаголы..md",
     "Clippings/(1) Английский Skysmart.md",
-    "English learning/Герундий и инфинитив.md",
     "English learning/Времена глаголов.md",
     "Clippings/Времена глаголов в английском языке — условия формирования, правила, таблица глаголов.md",
     "Clippings/Глагол GET и его производные фразовые глаголы. Get Got Got (Gotten) - 3 формы в английском языке.md",
@@ -197,15 +210,6 @@
     "configure.md",
     "MCU/Embedded GCC Standard Library.md",
     "MCU/Embedded C-C++ Unit Testing Basics.md",
-    "MCU/Different Ways of Software Configuration.md",
-    "MCU/Интересные репозитории.md",
-    "MCU/AWESOME_EMBEDDED.md",
-    "MCU/Firmware Hardening и Secure Boot на примере STM32.md",
-    "MCU/Linker script.md",
-    "Obsidian/Obsidian Help.md",
-    "CMAKE/CMAKE for VS Code.md",
-    "CMAKE/Embedded CMAKE file.md",
-    "RaspberryPi/Static IP address.md",
     "Linux/FFMPEG/Attachments/yiedofhit2lyvcjkrwi_w52hwtc.jpeg",
     "RaspberryPi/Attachments/missing-image.svg",
     "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
@@ -214,15 +218,11 @@
     "C/GET_OPT.pdf",
     "MCU/Middleware/LittleFS",
     "MCU/Middleware",
-    "MCU/LittleFS",
-    "VSCODE/Embedded/VSCODE NXP",
-    "VSCODE",
     "HTML import/Attachments/map.jpg",
     "HTML import/Attachments/tee.png",
     "HTML import/Attachments/putty.png",
     "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░ 3.jpg",
     "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░ 2.jpg",
-    "HTML import/Attachments/107173613.png",
-    "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░ 1.jpg"
+    "HTML import/Attachments/107173613.png"
   ]
 }
