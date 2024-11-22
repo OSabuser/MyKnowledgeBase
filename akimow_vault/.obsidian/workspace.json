@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Linux/BASH/Искусство командной строки.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Искусство командной строки"
             }
           }
         ]
@@ -172,19 +176,21 @@
       "graph:Граф": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f87b5c296998a983",
   "lastOpenFiles": [
-    "Rust/rust_ptrs.png",
-    "Rust/Типы умных указателей.md",
+    "Linux/BASH/Команда tee.md",
+    "Linux/BASH/Искусство командной строки.md",
+    "Linux/BASH/ANSI COLORS.md",
+    "Linux/BASH/DATE & TIME.md",
+    "Linux/BASH/Functions.md",
+    "Linux/BASH/Run Bash Script as a Daemon.md",
     "RaspberryPi/Boot flow configuration.md",
     "RaspberryPi/Autostart - Raspberry Pi OS.md",
-    "Linux/BASH/Run Bash Script as a Daemon.md",
+    "Rust/rust_ptrs.png",
+    "Rust/Типы умных указателей.md",
     "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
     "RaspberryPi/Static IP address.md",
     "RaspberryPi/rc.local.md",
-    "Linux/BASH/ANSI COLORS.md",
-    "Linux/BASH/Functions.md",
-    "Linux/BASH/DATE & TIME.md",
     "Linux/X11/Прозрачность окон.md",
     "Linux/X11/Прозрачность окон.md",
     "Linux/X11",
@@ -204,7 +210,6 @@
     "English learning/Времена глаголов.md",
     "Clippings/Времена глаголов в английском языке — условия формирования, правила, таблица глаголов.md",
     "Clippings/Глагол GET и его производные фразовые глаголы. Get Got Got (Gotten) - 3 формы в английском языке.md",
-    "Clippings/(1) • Английский Skysmart.md",
     "English learning",
     "Clippings",
     "Linux/FFMPEG/Attachments/yiedofhit2lyvcjkrwi_w52hwtc.jpeg",
