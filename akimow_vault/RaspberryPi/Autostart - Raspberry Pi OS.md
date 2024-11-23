@@ -9,8 +9,8 @@ Autostart is particularly useful when you need to run Desktop apps or any script
 Other methods such as rc.local or cron @reboot do not easily handle GUI programs as they attempt to start the app before the Desktop in ready resulting in failure to open.
 
 There are 4 autostart methods or options:  
-• System (All Users) \*\*\* Default in 'Buster' and later OS releases \*\*\*  
-• User (Specific Users) \*\*\* Default in 'Stretch' and earlier OS releases \*\*\*  
+• System (All Users) ***Default in 'Buster' and later OS releases***  
+• User (Specific Users) *** Default in 'Stretch' and earlier OS releases***  
 • Traditional (All Users) with .desktop files  
 • Traditional (Specific User) with .desktop files  
   

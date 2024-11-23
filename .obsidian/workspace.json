@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "114e537557aee288",
+        "id": "55feb18a83a2ca8a",
         "type": "tabs",
         "children": [
           {
-            "id": "8217bf4bc0445e29",
+            "id": "4d918d987ed97ecd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Presets.md",
+                "file": "akimow_vault/Linux/BASH/Искусство командной строки.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CMake Presets"
+              "title": "Искусство командной строки"
             }
           }
         ]
@@ -174,8 +174,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8217bf4bc0445e29",
+  "active": "4d918d987ed97ecd",
   "lastOpenFiles": [
+    "akimow_vault/RaspberryPi/Autostart - Raspberry Pi OS.md",
+    "akimow_vault/Linux/BASH/Командная строка.md",
+    "akimow_vault/Linux/X11/Прозрачность окон.md",
+    "akimow_vault/Linux/X11",
+    "akimow_vault/Linux/How to automatically restart a linux background process if it fails.md",
+    "akimow_vault/Linux/BASH/Команда tee.md",
+    "akimow_vault/Linux/BASH/Искусство командной строки.md",
+    "akimow_vault/C/GCC/GNU GCC Extensions.md",
+    "akimow_vault/C/GCC",
+    "akimow_vault/C/CLANG/ClangFormat.md",
+    "akimow_vault/C/CLANG/Clang-Format Style Options.md",
+    "akimow_vault/C/CLANG",
+    "AUTHORS.md",
+    "akimow_vault/English learning/Герундий и инфинитив.md",
+    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Presets.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 4 – Windows 10 Host.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 3 – Source File Organisation.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 2 - Release and Debug builds.md",
@@ -191,20 +206,8 @@
     "akimow_vault/DOCKER/Docker for Embedded Systems/Part 5 Multi-Stage Builds.md",
     "akimow_vault/DOCKER/Docker for Embedded Systems/Part 4 Reducing Docker Image Size.md",
     "akimow_vault/DOCKER/Docker for Embedded Systems/Part 3 Cross-Compiling for Cortex-M.md",
-    "akimow_vault/DOCKER/Docker for Embedded Systems/Part 2 Building Images.md",
-    "akimow_vault/DOCKER/Docker for Embedded Systems/Part 1 Getting Started.md",
-    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Presets.md",
-    "Clippings/An Introduction to Docker for Embedded Developers – Part 5 Multi-Stage Builds - Sticky Bits - Powered by Feabhas.md",
-    "Clippings/CMake Presets - Sticky Bits - Powered by Feabhas.md",
-    "akimow_vault/CMAKE/Embedded CMAKE file.md",
-    "akimow_vault/CMAKE/Интересные материалы.md",
-    "Clippings/CMake Part 2 - Release and Debug builds - Sticky Bits - Powered by Feabhas.md",
-    "Clippings/CMake Part 1 - The Dark Arts - Sticky Bits - Powered by Feabhas.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems",
     "akimow_vault/DOCKER/Docker for Embedded Systems",
-    "akimow_vault/C/A Modern C Development Environment.md",
-    "akimow_vault/C/C CODE STYLE RECOMMENDATIONS.md",
-    "akimow_vault/CMAKE/3 tips for using CMake with embedded software - Embedded.md",
     "akimow_vault/DOCKER",
     "akimow_vault/Hotkeys.webp",
     "Clippings",
@@ -218,9 +221,6 @@
     "akimow_vault/Linux/FFMPEG/Attachments/d69a81f5bb1035dac843ef4669b64764.jpg",
     "akimow_vault/Linux/FFMPEG/Attachments/d055450643b369da668e36e4e37ec1d4.jpg",
     "akimow_vault/Linux/FFMPEG/Attachments",
-    "akimow_vault/Linux/FFMPEG",
-    "akimow_vault/Linux/BASH/Attachments",
-    "akimow_vault/Linux/BASH",
-    "akimow_vault/CMAKE"
+    "akimow_vault/Linux/FFMPEG"
   ]
 }
