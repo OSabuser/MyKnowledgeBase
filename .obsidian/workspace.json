@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "55feb18a83a2ca8a",
+        "id": "7ba6ba01c23a1627",
         "type": "tabs",
         "children": [
           {
-            "id": "4d918d987ed97ecd",
+            "id": "77d9f4c34dc48831",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "akimow_vault/Linux/BASH/Искусство командной строки.md",
+                "file": "akimow_vault/Markdown/A collection of awesome markdown editors & (pre)viewers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Искусство командной строки"
+              "title": "A collection of awesome markdown editors & (pre)viewers"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -164,25 +164,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d918d987ed97ecd",
+  "active": "77d9f4c34dc48831",
   "lastOpenFiles": [
+    "akimow_vault/Markdown/Basic syntax.md",
+    "akimow_vault/Markdown/A collection of awesome markdown editors & (pre)viewers.md",
+    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 2 - Release and Debug builds.md",
+    "Clippings",
+    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 0 -Why We Need Build Systems.md",
+    "akimow_vault/Linux/BASH/Искусство командной строки.md",
     "akimow_vault/RaspberryPi/Autostart - Raspberry Pi OS.md",
     "akimow_vault/Linux/BASH/Командная строка.md",
     "akimow_vault/Linux/X11/Прозрачность окон.md",
     "akimow_vault/Linux/X11",
     "akimow_vault/Linux/How to automatically restart a linux background process if it fails.md",
     "akimow_vault/Linux/BASH/Команда tee.md",
-    "akimow_vault/Linux/BASH/Искусство командной строки.md",
     "akimow_vault/C/GCC/GNU GCC Extensions.md",
     "akimow_vault/C/GCC",
     "akimow_vault/C/CLANG/ClangFormat.md",
@@ -193,9 +198,7 @@
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Presets.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 4 – Windows 10 Host.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 3 – Source File Organisation.md",
-    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 2 - Release and Debug builds.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 1 - The Dark Arts.md",
-    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 0 -Why We Need Build Systems.md",
     "akimow_vault/RaspberryPi/Static IP address.md",
     "akimow_vault/RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
     "akimow_vault/RaspberryPi/Boot flow configuration.md",
@@ -204,13 +207,10 @@
     "akimow_vault/reverse video.md",
     "akimow_vault/DOCKER/Docker Tutorial.md",
     "akimow_vault/DOCKER/Docker for Embedded Systems/Part 5 Multi-Stage Builds.md",
-    "akimow_vault/DOCKER/Docker for Embedded Systems/Part 4 Reducing Docker Image Size.md",
-    "akimow_vault/DOCKER/Docker for Embedded Systems/Part 3 Cross-Compiling for Cortex-M.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems",
     "akimow_vault/DOCKER/Docker for Embedded Systems",
     "akimow_vault/DOCKER",
     "akimow_vault/Hotkeys.webp",
-    "Clippings",
     "akimow_vault/Rust/rust_ptrs.png",
     "akimow_vault/Linux/SSH/scp_options.png",
     "akimow_vault/Linux/FFMPEG/Attachments/yiedofhit2lyvcjkrwi_w52hwtc.jpeg",
