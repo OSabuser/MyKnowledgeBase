@@ -123,7 +123,15 @@ We do this using LINK\_DEPENDS option to the [set\_target\_properties()](https:/
 We can add our two linker configuration scripts as linker dependencies using the following:
 
 ```
+set(LINKER_SCRIPTS 
+  ${CMAKE_SOURCE_DIR}/ldscripts/mem.ld 
+  ${CMAKE_SOURCE_DIR}/ldscripts/sections.ld
+)
 
+set_target_properties(Application PROPERTIES
+  SUFFIX .elf
+  LINK_DEPENDS "${LINKER_SCRIPTS}"
+)
 ```
 
 The LINK\_DEPENDS option requires a single parameter which is a semi-colon separated list of absolute pathnames to the files; relative filenames do not work so we need to use the CMAKE\_SOURCE\_DIR to prefix the relative paths to the files.
@@ -135,7 +143,10 @@ The LINK\_DEPENDS option is used to ensure the linker is run to rebuild the imag
 The CMAKE\_CONFIGURE\_DEPENDS usage is similar to that of LINK\_DEPENDS requiring a semi-colon separated list but this time containing filenames relative to a given directory:
 
 ```
-
+set(FILES config.yml) 
+set__property(DIRECTORY ${CMAKE_SOURCE_DIR} 
+  APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS "${FILES}"
+)
 ```
 
 ## Using Subsystems

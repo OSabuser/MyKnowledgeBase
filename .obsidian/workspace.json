@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "akimow_vault/Linux/BASH/Искусство командной строки.md",
+                "file": "akimow_vault/MCU/FMC SDRAM STM32.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Искусство командной строки"
+              "title": "FMC SDRAM STM32"
+            }
+          },
+          {
+            "id": "18dfa413348f805f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +53,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -174,44 +188,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d918d987ed97ecd",
+  "active": "18dfa413348f805f",
   "lastOpenFiles": [
-    "akimow_vault/RaspberryPi/Autostart - Raspberry Pi OS.md",
-    "akimow_vault/Linux/BASH/Командная строка.md",
-    "akimow_vault/Linux/X11/Прозрачность окон.md",
-    "akimow_vault/Linux/X11",
-    "akimow_vault/Linux/How to automatically restart a linux background process if it fails.md",
-    "akimow_vault/Linux/BASH/Команда tee.md",
-    "akimow_vault/Linux/BASH/Искусство командной строки.md",
-    "akimow_vault/C/GCC/GNU GCC Extensions.md",
-    "akimow_vault/C/GCC",
-    "akimow_vault/C/CLANG/ClangFormat.md",
-    "akimow_vault/C/CLANG/Clang-Format Style Options.md",
-    "akimow_vault/C/CLANG",
-    "AUTHORS.md",
-    "akimow_vault/English learning/Герундий и инфинитив.md",
-    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Presets.md",
-    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 4 – Windows 10 Host.md",
+    "akimow_vault/CMAKE/Embedded CMAKE file.md",
+    "akimow_vault/CMAKE/CMAKE for VS Code.md",
+    "akimow_vault/MCU/FMC SDRAM STM32.md",
+    "akimow_vault/MCU/Embedded GCC Standard Library.md",
+    "akimow_vault/MCU/Embedded C-C++ Unit Testing Basics.md",
+    "akimow_vault/MCU/Different Ways of Software Configuration.md",
+    "akimow_vault/MCU/Интересные репозитории.md",
+    "akimow_vault/MCU/Bootloader/Интересные статьи.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 3 – Source File Organisation.md",
-    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 2 - Release and Debug builds.md",
+    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 4 – Windows 10 Host.md",
+    "akimow_vault/CMAKE/3 tips for using CMake with embedded software - Embedded.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 1 - The Dark Arts.md",
+    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 2 - Release and Debug builds.md",
+    "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Presets.md",
+    "akimow_vault/CMAKE/Building with CMake Presets.md",
+    "akimow_vault/English learning/Времена глаголов.md",
+    "akimow_vault/English learning/Герундий и инфинитив.md",
+    "akimow_vault/English learning/Глагол GET и его производные фразовые глаголы..md",
+    "akimow_vault/Markdown/Basic syntax.md",
+    "akimow_vault/Rust/rust_ptrs.png",
+    "akimow_vault/CMAKE/Интересные материалы.md",
+    "akimow_vault/C/C CODE STYLE RECOMMENDATIONS.md",
+    "akimow_vault/C/Искусство упаковки структур в C.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 0 -Why We Need Build Systems.md",
-    "akimow_vault/RaspberryPi/Static IP address.md",
-    "akimow_vault/RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
+    "akimow_vault/RaspberryPi/Autostart - Raspberry Pi OS.md",
+    "AUTHORS.md",
     "akimow_vault/RaspberryPi/Boot flow configuration.md",
-    "akimow_vault/C/Makefile Tutorial.md",
-    "akimow_vault/Добро пожаловать.md",
-    "akimow_vault/reverse video.md",
-    "akimow_vault/DOCKER/Docker Tutorial.md",
-    "akimow_vault/DOCKER/Docker for Embedded Systems/Part 5 Multi-Stage Builds.md",
-    "akimow_vault/DOCKER/Docker for Embedded Systems/Part 4 Reducing Docker Image Size.md",
-    "akimow_vault/DOCKER/Docker for Embedded Systems/Part 3 Cross-Compiling for Cortex-M.md",
+    "akimow_vault/Linux/X11",
+    "akimow_vault/C/GCC",
+    "akimow_vault/C/CLANG",
+    "akimow_vault/RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
     "akimow_vault/CMAKE/CMAKE for Embedded systems",
     "akimow_vault/DOCKER/Docker for Embedded Systems",
     "akimow_vault/DOCKER",
     "akimow_vault/Hotkeys.webp",
     "Clippings",
-    "akimow_vault/Rust/rust_ptrs.png",
     "akimow_vault/Linux/SSH/scp_options.png",
     "akimow_vault/Linux/FFMPEG/Attachments/yiedofhit2lyvcjkrwi_w52hwtc.jpeg",
     "akimow_vault/Linux/FFMPEG/Attachments/um1ocd097jkci-gny4xxm_v50jw.jpeg",

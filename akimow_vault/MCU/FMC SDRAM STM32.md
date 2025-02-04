@@ -49,7 +49,19 @@
 
 Теперь остается только сконфигурировать все выводы GPIO для работы в альтернативном режиме с FMC.
 
-|  | #include "stm32f746xx.h" /\* for CMSIS defines \*/  static inline void pin\_init() {    /\* Enable clock for GPIO ports \*/    RCC \-\> AHB1ENR \|\= RCC\_AHB1ENR\_GPIOCEN \| RCC\_AHB1ENR\_GPIODEN \|                      RCC\_AHB1ENR\_GPIOEEN \| RCC\_AHB1ENR\_GPIOFEN \|                      RCC\_AHB1ENR\_GPIOGEN \| RCC\_AHB1ENR\_GPIOHEN;    /\* Configure GPIO ports \*/    /\* PC3: AF PP + VHS + AF12 \*/    GPIOC \-\> MODER   \|\= GPIO\_MODER\_MODER3\_1;    GPIOC \-\> OSPEEDR \|\= GPIO\_OSPEEDER\_OSPEEDR3\_1 \| GPIO\_OSPEEDER\_OSPEEDR3\_0;    GPIOC \-\> AFR\[0\]  \|\= GPIO\_AFRL\_AFRL3\_3 \| GPIO\_AFRL\_AFRL3\_2;    ...  } |
+
+```c
+	#include "stm32f746xx.h" 
+	static inline void pin_init() {    /* Enable clock for GPIO ports \*/    RCC -\ AHB1ENR |= RCC\_AHB1ENR_GPIOCEN | RCC\_AHB1ENR_GPIODEN |                      RCC\_AHB1ENR_GPIOEEN | RCC\_AHB1ENR_GPIOFEN |                      RCC\_AHB1ENR_GPIOGEN | RCC\_AHB1ENR_GPIOHEN;    
+	/* Configure GPIO ports */    /* PC3: AF PP + VHS + AF12 */    
+	GPIOC -> MODER   |= GPIO_MODER_MODER3_1;    
+	GPIOC -> OSPEEDR |= GPIO_OSPEEDER_OSPEEDR3_1 | GPIO_OSPEEDER_OSPEEDR3_0;
+	    GPIOC -> AFR[0]  |= GPIO_AFRL_AFRL3_3 | GPIO_AFRL_AFRL3_2;     
+	}
+```
+
+
+|     |     |     |     |     |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 Здесь мы последовательно подаем тактирование на порты GPIO (без этого никак), затем для PC3 задаем режим работы, устанавливаем максимальную скорость и выбираем его в качестве вывода FMC. Остается только повторить операции выше для всех остальных сигналов.
