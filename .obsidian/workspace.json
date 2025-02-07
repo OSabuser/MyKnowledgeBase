@@ -37,12 +37,14 @@
             "id": "fa6c908bde29d9b3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "akimow_vault/English learning/Verbs-Followed-by-Gerunds-and-Infinitives.pdf"
+                "file": "akimow_vault/MCU/Design Pattern Catalogue - Embedded Artistry.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Verbs-Followed-by-Gerunds-and-Infinitives"
+              "icon": "lucide-file",
+              "title": "Design Pattern Catalogue - Embedded Artistry"
             }
           }
         ],
@@ -200,10 +202,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa6c908bde29d9b3",
+  "active": "af620568d9853cc2",
   "lastOpenFiles": [
-    "akimow_vault/English learning/Герундий и инфинитив.md",
+    "akimow_vault/MCU/Configuration Table Pattern - Embedded Artistry.md",
+    "akimow_vault/MCU/Design Pattern Catalogue - Embedded Artistry.md",
+    "akimow_vault/MCU/5 tips for writing configurable firmware - Embedded.md",
+    "akimow_vault/MCU/3 Tips for Embedded Software Configuration Management.md",
+    "akimow_vault/MCU/Интересные репозитории.md",
+    "akimow_vault/MCU/Different Ways of Software Configuration.md",
+    "akimow_vault/MCU/Embedded C-C++ Unit Testing Basics.md",
+    "akimow_vault/MCU/Embedded GCC Standard Library.md",
+    "akimow_vault/MCU/Firmware Hardening и Secure Boot на примере STM32.md",
+    "akimow_vault/MCU/FMC SDRAM STM32.md",
     "akimow_vault/English learning/Verbs-Followed-by-Gerunds-and-Infinitives.pdf",
+    "akimow_vault/English learning/Герундий и инфинитив.md",
     "akimow_vault/English learning/Глагол GET и его производные фразовые глаголы..md",
     "Clippings/Untitled.md",
     "Clippings/Blog.md",
@@ -211,11 +223,6 @@
     "akimow_vault/Markdown/A collection of awesome markdown editors & (pre)viewers.md",
     "akimow_vault/CMAKE/Embedded CMAKE file.md",
     "akimow_vault/CMAKE/CMAKE for VS Code.md",
-    "akimow_vault/MCU/FMC SDRAM STM32.md",
-    "akimow_vault/MCU/Embedded GCC Standard Library.md",
-    "akimow_vault/MCU/Embedded C-C++ Unit Testing Basics.md",
-    "akimow_vault/MCU/Different Ways of Software Configuration.md",
-    "akimow_vault/MCU/Интересные репозитории.md",
     "akimow_vault/MCU/Bootloader/Интересные статьи.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 3 – Source File Organisation.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 4 – Windows 10 Host.md",
@@ -224,11 +231,7 @@
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 2 - Release and Debug builds.md",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Presets.md",
     "akimow_vault/CMAKE/Building with CMake Presets.md",
-    "akimow_vault/English learning/Времена глаголов.md",
-    "akimow_vault/Markdown/Basic syntax.md",
     "akimow_vault/Rust/rust_ptrs.png",
-    "akimow_vault/CMAKE/Интересные материалы.md",
-    "akimow_vault/C/C CODE STYLE RECOMMENDATIONS.md",
     "akimow_vault/Linux/X11",
     "akimow_vault/C/GCC",
     "akimow_vault/C/CLANG",

@@ -116,7 +116,8 @@ Each driver or module has an external configuration file. For example **LCD.c** 
 I can configure the driver with the settings in that configuration header file if I need to.This configuration header file gets included in the LCD driver:
 
 | 1  2  3  4  5  6  7  8 | `#include "configLCD.h`  `#include "LCD.h"`  `...`  `#if CONFIG_HAS_LCD`  `showStatusOnLCD();`  `#endif`  `...` |
-| --- | --- |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------- |
+|                        |                                                                                                                 |
 
 Note that the configuration #defines in the configuration header file are setting a default value in case the macro is \*not\* already defined (#ifndef). So if don’t want to touch the file I can use the -D compiler option to change the setting.
 
