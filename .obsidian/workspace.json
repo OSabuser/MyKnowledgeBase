@@ -8,45 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d918d987ed97ecd",
+            "id": "fa6c908bde29d9b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "akimow_vault/MCU/FMC SDRAM STM32.md",
+                "file": "akimow_vault/Rust/Аргументы командной строки.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FMC SDRAM STM32"
-            }
-          },
-          {
-            "id": "18dfa413348f805f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
-            }
-          },
-          {
-            "id": "fa6c908bde29d9b3",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "akimow_vault/Rust/cheatsheets/rust_ptrs.png"
-              },
-              "icon": "lucide-image",
-              "title": "rust_ptrs"
+              "title": "Аргументы командной строки"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,11 +175,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af620568d9853cc2",
+  "active": "fa6c908bde29d9b3",
   "lastOpenFiles": [
+    "Clippings/Возврат строки из функции.md",
+    "akimow_vault/Rust/Аргументы командной строки.md",
+    "akimow_vault/Rust/Язык суб-слайсов и массивов.md",
+    "akimow_vault/Rust/cheatsheets/rust_ptrs.png",
     "akimow_vault/Rust/cheatsheets",
     "akimow_vault/Rust/cheatsheets/rust_containers.jpg",
-    "akimow_vault/Rust/cheatsheets/rust_ptrs.png",
     "akimow_vault/MCU/Architecture/Different Ways of Software Configuration.md",
     "akimow_vault/MCU/Architecture/Design Pattern Catalogue - Embedded Artistry.md",
     "akimow_vault/MCU/Architecture/Configuration Table Pattern - Embedded Artistry.md",
@@ -226,12 +204,10 @@
     "akimow_vault/English learning/Verbs-Followed-by-Gerunds-and-Infinitives.pdf",
     "akimow_vault/English learning/Герундий и инфинитив.md",
     "akimow_vault/English learning/Глагол GET и его производные фразовые глаголы..md",
-    "Clippings/Untitled.md",
     "Clippings/Blog.md",
     "conflict-files-obsidian-git.md",
     "akimow_vault/Markdown/A collection of awesome markdown editors & (pre)viewers.md",
     "akimow_vault/CMAKE/Embedded CMAKE file.md",
-    "akimow_vault/CMAKE/CMAKE for VS Code.md",
     "akimow_vault/Linux/X11",
     "akimow_vault/C/GCC",
     "akimow_vault/C/CLANG",
@@ -240,7 +216,6 @@
     "akimow_vault/DOCKER/Docker for Embedded Systems",
     "akimow_vault/DOCKER",
     "akimow_vault/Hotkeys.webp",
-    "Clippings",
     "akimow_vault/Linux/SSH/scp_options.png",
     "akimow_vault/Linux/FFMPEG/Attachments/yiedofhit2lyvcjkrwi_w52hwtc.jpeg",
     "akimow_vault/Linux/FFMPEG/Attachments/um1ocd097jkci-gny4xxm_v50jw.jpeg",
