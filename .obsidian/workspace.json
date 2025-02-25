@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "akimow_vault/Text Formats/Markdown/Markdown supported languages for syntax highlighting.md",
+                "file": "akimow_vault/MCU/Using the static keyword in C - EDN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markdown supported languages for syntax highlighting"
+              "title": "Using the static keyword in C - EDN"
             }
           }
         ],
@@ -192,6 +192,13 @@
   },
   "active": "af620568d9853cc2",
   "lastOpenFiles": [
+    "akimow_vault/MCU/5 tips for designing a smart watchdog - EDN.md",
+    "akimow_vault/MCU/Using the static keyword in C - EDN.md",
+    "Clippings/SOLID FOR EMBEDDED C.md",
+    "akimow_vault/MCU/Function Pointers/Function pointers, Part 3 State machines - EDN.md",
+    "akimow_vault/MCU/Function Pointers/Function pointers An introduction - EDN.md",
+    "akimow_vault/MCU/5 Tips for using callbacks with interrupts - EDN.md",
+    "akimow_vault/MCU/Function Pointers",
     "akimow_vault/Text Formats/Markdown/Markdown supported languages for syntax highlighting.md",
     "akimow_vault/GIT/gitignore file Tutorial.md",
     "akimow_vault/Clippings/VScode Defining own variables in tasks.json.md",
@@ -202,7 +209,6 @@
     "akimow_vault/C/Polymorphism/A Practical Guide to Dynamic Polymorphism in C Programming  HackerNoon.md",
     "akimow_vault/C/Polymorphism",
     "akimow_vault/Text Formats/Markdown/Markdown Tables generator - TablesGenerator.com.md",
-    "Clippings/SOLID FOR EMBEDDED C.md",
     "akimow_vault/Text Formats/Markdown/Attachments/tux.png",
     "akimow_vault/Text Formats/Markdown/Attachments/shiprock.jpg",
     "akimow_vault/Text Formats/Markdown/Attachments/san-juan-mountains.jpg",
@@ -227,13 +233,7 @@
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Presets.md",
     "akimow_vault/MCU/Cortex-M7 Cache",
     "akimow_vault/CMAKE/CMAKE for Embedded systems/CMake Part 4 – Windows 10 Host.md",
-    "akimow_vault/CMAKE/3 tips for using CMake with embedded software - Embedded.md",
-    "akimow_vault/CMAKE/Интересные материалы.md",
-    "akimow_vault/CMAKE/Embedded CMAKE file.md",
-    "akimow_vault/DOCKER/Docker for Embedded Systems/Part 5 Multi-Stage Builds.md",
-    "akimow_vault/DOCKER/Docker for Embedded Systems/Part 4 Reducing Docker Image Size.md",
     "akimow_vault/Rust/cheatsheets/rust_ptrs.png",
-    "akimow_vault/Rust/cheatsheets",
     "akimow_vault/Rust/cheatsheets/rust_containers.jpg",
     "akimow_vault/Hotkeys.webp",
     "akimow_vault/Linux/SSH/scp_options.png",
