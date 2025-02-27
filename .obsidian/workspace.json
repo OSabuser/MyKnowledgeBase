@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "akimow_vault/MCU/Using the static keyword in C - EDN.md",
+                "file": "akimow_vault/MCU/Architecture/Design Pattern Catalogue - Embedded Artistry.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Using the static keyword in C - EDN"
+              "title": "Design Pattern Catalogue - Embedded Artistry"
             }
           }
         ],
@@ -190,10 +190,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af620568d9853cc2",
+  "active": "9a017451edc1be24",
   "lastOpenFiles": [
-    "akimow_vault/MCU/5 tips for designing a smart watchdog - EDN.md",
+    "akimow_vault/C/Polymorphism/Virtual functions in C - Embedded.md",
+    "akimow_vault/C/Polymorphism/Technique Inheritance and Polymorphism in C - Embedded Artistry.md",
+    "akimow_vault/C/Polymorphism/A Practical Guide to Dynamic Polymorphism in C Programming  HackerNoon.md",
     "akimow_vault/MCU/Using the static keyword in C - EDN.md",
+    "akimow_vault/MCU/5 tips for designing a smart watchdog - EDN.md",
     "Clippings/SOLID FOR EMBEDDED C.md",
     "akimow_vault/MCU/Function Pointers/Function pointers, Part 3 State machines - EDN.md",
     "akimow_vault/MCU/Function Pointers/Function pointers An introduction - EDN.md",
@@ -204,9 +207,6 @@
     "akimow_vault/Clippings/VScode Defining own variables in tasks.json.md",
     "akimow_vault/Clippings",
     "akimow_vault/C/The Best and Worst GCC Compiler Flags For Embedded.md",
-    "akimow_vault/C/Polymorphism/Virtual functions in C - Embedded.md",
-    "akimow_vault/C/Polymorphism/Technique Inheritance and Polymorphism in C - Embedded Artistry.md",
-    "akimow_vault/C/Polymorphism/A Practical Guide to Dynamic Polymorphism in C Programming  HackerNoon.md",
     "akimow_vault/C/Polymorphism",
     "akimow_vault/Text Formats/Markdown/Markdown Tables generator - TablesGenerator.com.md",
     "akimow_vault/Text Formats/Markdown/Attachments/tux.png",
