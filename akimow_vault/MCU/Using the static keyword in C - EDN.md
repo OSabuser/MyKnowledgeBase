@@ -1,0 +1,23 @@
+---
+title: "Using the static keyword in C - EDN"
+source: "https://www.edn.com/using-the-static-keyword-in-c/"
+author:
+  - "[[Jacob Beningo]]"
+published: 2012-10-22
+created: 2025-02-25
+description: "There are many topics in the C language that often confuse developers but the use of the static keyword seems to be one of the more common. One of the"
+tags:
+  - "clippings"
+---
+There are many topics in the C language that often confuse developers but the use of the static keyword seems to be one of the more common. One of the points of confusion is how static affects variables that are local and variables that are global. In each instance the static keyword has a different effect on where the data is stored and how it persists throughout the life of the program. There are three primary uses for the static keyword: with a local variable in a function, with a global variable in a module, and with a function in a module. In this post we will examine all three uses and how they affect not only where variables are stored but also how their use can increase code quality.
+
+In general, static is a storage class specifier that can be applied to any data type. While static has many definitions, the definition that best applies to all three uses is that static tells the compiler to make the variable or function limited in scope while allowing it to persist throughout the life of the program. This allows static to be used to encapsulate or hide variables from the rest of the program to prevent inadvertent access. The developer is then able to strictly control how variables are accessed within a module, which is considered good programming practice.
+
+When a variable is declared within a function without the use of static, the variable is considered to be an automatic variable. Automatic variables are created and stored on the stack (or within a CPU register) and destroyed when the function returns. If a developer wanted the variable within the function to retain its value between calls, the variable would be declared as static. In this case, the variable would no longer be stored on the stack but would instead be stored in the global memory space; however, even though the variable itself is stored in global space, the compiler enforces a local scope on the variable causing it to only be visible within that function! Other functions within the module will be unaware that the variable exists. Not only will the variable retain its value throughout the life of the program, the static variable will also only be initialized the first time the function is called.
+
+Defining a variable within the global scope of a module (but not global within the context of the entire program) implicitly declares the variable to be static. This causes the variable to be defined within the global memory space while enforcing the concept of limiting the scope of the variable to the module. It’s always a good idea to explicitly declare these variables as static to remind yourself that they have a module scope and are not automatic variables. Good programming practice indicates that a variable should be declared within the most local, applicable scope. Therefore, if the variable is only used within a single function then the more appropriate location to declare the variable may be within the function itself rather than the module scope. Static variables declared at the module level are initialized only once during the C copy down that occurs when the processor is being initialized.
+
+
+Static can also be applied to a function within a module. By default, functions are implicitly declared as extern. This means that if a function is defined within a C file and not prototyped within a header file, the compiler will still be able to link to the function (with perhaps a few warnings to the developer). In order to only make a function usable within a single module, the developer can place the static keyword before the function declaration. This will effectively hide the function from the external world and protect the use of that function and its variables.
+
+The use of the static keyword has many uses. Its most effective use is to limit the scope of variables defined within a module or function. Through the use of static, variables and functions can be hidden from the external program, resulting in behavior that is similar to the use of private and public in more modern object oriented languages.

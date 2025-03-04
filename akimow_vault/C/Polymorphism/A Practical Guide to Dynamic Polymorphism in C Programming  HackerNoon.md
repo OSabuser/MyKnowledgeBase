@@ -63,7 +63,7 @@ While this is functional, it doesn't scale. Whenever we want to add a new toy we
 
 The second code sample uses dynamic polymorphism for a more flexible, scalable application. Here `Toy` has its function pointer for the sound function. Factory functions(`createBarbie()`, `createSuperMan()`) are used to create Barbie and Superman instances, assigning the appropriate sound function to each toy. The `makeSound()` function demonstrates dynamic polymorphism by calling the appropriate sound function for each toy at run time.
 
-```clike
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -344,7 +344,7 @@ Virtual tables simplify the management of multiple function pointers, reduce red
 
 To show how much the vtable plays a significant role, let’s look at an example where we want to use 10,000 instances of each toy in our program:
 
-```clike
+```cpp
 #include <stdio.h>
 
 typedef void (*FUNPTR)();
