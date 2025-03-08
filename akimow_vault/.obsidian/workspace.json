@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VSCODE/VScode Defining own variables in tasks.json.md",
+                "file": "MACOS/Добавление в PATH для текущего пользователя.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VScode Defining own variables in tasks.json"
+              "title": "Добавление в PATH для текущего пользователя"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -165,20 +165,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
-      "markdown-importer:Импорт Markdown-файлов": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
       "homepage:Open homepage": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-git:Open Git source control": false,
-      "graph:Граф": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f87b5c296998a983",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "VScode Defining own variables in tasks.json.md",
+    "MACOS/Добавление в PATH для текущего пользователя.md",
+    "MACOS",
     "Obsidian/Obsidian Типы данных.md",
     "C/Polymorphism/A Practical Guide to Dynamic Polymorphism in C Programming  HackerNoon.md",
     "C/Polymorphism/Technique Inheritance and Polymorphism in C - Embedded Artistry.md",
@@ -204,8 +207,6 @@
     "MCU/Architecture/Design Pattern Catalogue - Embedded Artistry.md",
     "MCU/Architecture/Configuration Table Pattern - Embedded Artistry.md",
     "MCU/Architecture/5 tips for writing configurable firmware - Embedded.md",
-    "MCU/Architecture/5 Steps To Designing An Embedded Software Architecture, Step 2 - Embedded.md",
-    "MCU/Architecture/5 Steps To Designing An Embedded Software Architecture, Step 1 - Embedded.md",
     "GIT",
     "Text Formats/JSON",
     "Text Formats",
@@ -217,7 +218,6 @@
     "English learning/Verbs-Followed-by-Gerunds-and-Infinitives.pdf",
     "RaspberryPi/Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf",
     "Rust/rust_ptrs.png",
-    "Linux/X11",
     "Linux/SSH/scp_options.png",
     "Linux/FFMPEG/Attachments/yiedofhit2lyvcjkrwi_w52hwtc.jpeg",
     "RaspberryPi/Attachments/missing-image.svg",
