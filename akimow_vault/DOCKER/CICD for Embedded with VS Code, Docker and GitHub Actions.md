@@ -1,3 +1,15 @@
+---
+title: "CI/CD for Embedded with VS Code, Docker and GitHub Actions"
+source: "https://mcuoneclipse.com/2023/10/02/ci-cd-for-embedded-with-vs-code-docker-and-github-actions/"
+author:
+  - "[[Erich Styger]]"
+  - "[[View all posts by Erich Styger →]]"
+published: 2023-10-02
+created: 2025-07-28
+description: "\"Our highest priority is to satisfy the customerthrough early and continuous deliveryof valuable software.\" Agile Manifesto, https://agilemanifesto.org/principles.html It is interesting to see that modern tools and agile development workflows are getting more and more into the embedded world. CI/CD is a strategy where code changes to an application get automatically integrated, tested and released automatically…"
+tags:
+  - "clippings"
+---
 > “Our highest priority is to satisfy the customer  
 > through early and continuous delivery  
 > of valuable software.”
@@ -24,23 +36,23 @@ NXP LPC55S16-EVK
 
 ## What is CI/CD?
 
-CI/CD (**C**ontinuous **I**ntegration/**C**ontinuous **D**elivery) means automating the development process from adding changes, to tests up to delivery of the software product.
+CI/CD (**C** ontinuous **I** ntegration/ **C** ontinuous **D** elivery) means automating the development process from adding changes, to tests up to delivery of the software product.
 
 CI/CD is an important part of DevOps, a combination of development (dev) and operations (ops), where people are working together to build and deliver products.
 
 ![](https://mcuoneclipse.com/wp-content/uploads/2023/10/devops.png?w=1024)
 
-DevOps chain (Source: [Wikipedia](https://en.wikipedia.org/wiki/DevOps_toolchain))
+DevOps chain (Source: Wikipedia )
 
 Continuous Integration (CI) means that developers check-in their changes into a version control system. This then triggers an automated build of the system on a server which then reports the status back. This ensures that the change by the developer does not break anything.
 
-![](https://mcuoneclipse.com/wp-content/uploads/2023/10/continuous_integration.jpg?w=834)
+![](https://mcuoneclipse.com/wp-content/uploads/2023/10/continuous_integration.jpg?w=584)
 
-Continuous Integration (Source: [Wikipedia](https://en.wikipedia.org/wiki/Continuous_integration))
+Continuous Integration (Source: Wikipedia )
 
 The whole process can be seen as a ‘pipeline’ of automated steps:
 
-![](https://mcuoneclipse.com/wp-content/uploads/2023/10/ci_cd_pipeline.png?w=1024)
+![](https://mcuoneclipse.com/wp-content/uploads/2023/10/ci_cd_pipeline.png?w=584)
 
 CI/CD Pipeline
 
@@ -54,7 +66,7 @@ So here is what I use in this article:
 
 - Visual Studio Code: [VS Code: Installation](https://mcuoneclipse.com/2023/08/05/vs-code-ide-installation/)
 - NXP MCUXpresso SDK: [https://mcuxpresso.nxp.com/en/welcome](https://mcuxpresso.nxp.com/en/welcome)
-- CMake, Ninja, Make: [VS Code: MCUXpresso Installer](https://mcuoneclipse.com/2023/08/11/vs-code-mcuxpresso-installer/)
+- CMake, Ninja, Make: [VS Code: MCUXpresso Installer](https://mcuoneclipse.com/2023/08/11/vs-code-mcuxpresso-installer/)
 - Docker: [https://www.docker.com/](https://www.docker.com/)
 - GitHub: [https://github.com/](https://github.com/)
 
@@ -118,7 +130,7 @@ Run the following command to build the image:
 ```
 docker build -t lpc55s16-image .
 ```
-![](https://mcuoneclipse.com/wp-content/uploads/2023/10/docker-image-building.png?w=1024)
+![](https://mcuoneclipse.com/wp-content/uploads/2023/10/docker-image-building.png?w=584)
 
 Docker Image building
 
@@ -167,7 +179,7 @@ Now lets start the container and log into it:
 ```
 docker start -i lpc55s16-container
 ```
-![](https://mcuoneclipse.com/wp-content/uploads/2023/10/running-container.png?w=881)
+![](https://mcuoneclipse.com/wp-content/uploads/2023/10/running-container.png?w=584)
 
 Running the container
 
@@ -181,15 +193,17 @@ exit
 
 So now we have the docker environment, the next step is to build it on the GitHub server using GitHub Actions.
 
+## GitHub Actions
+
 GitHub offers the a workflow for ‘actions’: for example it can trigger an event if someone pushes new content or pushes a tag to the repository. And this is what I want here: If I push a tag labeled e.g. “v1.0.0” then it shall create an event to build the project and publish the resulting binary on GitHub as a release.
 
-To use Github workflows, I need to have a special directory on GitHub/in my project: .github\\workflows wehre I put in my actions as YAML files:
+To use Github workflows, I need to have a special directory on GitHub/in my project:.github\\workflows wehre I put in my actions as YAML files:
 
 ![](https://mcuoneclipse.com/wp-content/uploads/2023/10/github-workflow-directory.png?w=336)
 
 GitHub Workflow Directory
 
-Into that folder, I an put workflow files with a .yml extension. The `deploy.yml` has the following content:
+Into that folder, I an put workflow files with a.yml extension. The `deploy.yml` has the following content:
 
 ```
 # Name of the workflow
@@ -249,7 +263,7 @@ The push to the release section is made with an open source GitHub Action (actio
 
 Because the action has the ‘workflow\_dispatch’ trigger specified, I can run the workflow manually too:
 
-![](https://mcuoneclipse.com/wp-content/uploads/2023/10/run-workflow-manually.jpg?w=886)
+![](https://mcuoneclipse.com/wp-content/uploads/2023/10/run-workflow-manually.jpg?w=584)
 
 Run Workflow manually
 
@@ -262,23 +276,23 @@ git push origin v0.0.1
 
 On GitHub then I can monitor the running action:
 
-![](https://mcuoneclipse.com/wp-content/uploads/2023/10/running-github-action-1.png?w=1024)
+![](https://mcuoneclipse.com/wp-content/uploads/2023/10/running-github-action-1.png?w=584)
 
 running GitHub Action
 
 Clicking on the action I can get more details:
 
-![](https://mcuoneclipse.com/wp-content/uploads/2023/10/action-details.jpg?w=1024)
+![](https://mcuoneclipse.com/wp-content/uploads/2023/10/action-details.jpg?w=584)
 
 Action Details
 
 It has pushed the assets to the ‘Releases’ and added an entry to the Change-Log:
 
-![](https://mcuoneclipse.com/wp-content/uploads/2023/10/changelog-and-assets.jpg?w=908)
+![](https://mcuoneclipse.com/wp-content/uploads/2023/10/changelog-and-assets.jpg?w=584)
 
 New release
 
-Congratulations, you have completed a pipeline :-).
+Congratulations, you have completed a pipeline:-).
 
 ## Summary
 
@@ -292,7 +306,7 @@ Happy integrating and delivering 🙂
 - Wikipedia DevOps: [https://en.wikipedia.org/wiki/DevOps\_toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
 - Wikipedia Continuous Integration: [https://en.wikipedia.org/wiki/Continuous\_integration](https://en.wikipedia.org/wiki/Continuous_integration)
 - Docker: [https://www.docker.com/](https://www.docker.com/)
-- Earlier series about VS Code: [Consolidating with VS Code](https://mcuoneclipse.com/2023/08/01/consolidating-with-vs-code/)
+- Earlier series about VS Code: [Consolidating with VS Code](https://mcuoneclipse.com/2023/08/01/consolidating-with-vs-code/)
 - Getting started with docker: [https://www.digikey.ch/en/maker/projects/getting-started-with-docker/aa0d4c708c274ffd975f3b427e5c0ce6](https://www.digikey.ch/en/maker/projects/getting-started-with-docker/aa0d4c708c274ffd975f3b427e5c0ce6)
 - Continuous Deployment Using Docker and Github Actions: [https://www.digikey.ch/en/maker/projects/continuous-deployment-using-docker-and-github-actions/d9d18e19361647dbb49070ce6f96c2ea](https://www.digikey.ch/en/maker/projects/continuous-deployment-using-docker-and-github-actions/d9d18e19361647dbb49070ce6f96c2ea)
 - [A Modern C Development Environment | Interrupt (memfault.com)](https://interrupt.memfault.com/blog/a-modern-c-dev-env?utm_campaign=Interrupt%20Blog&utm_medium=email&_hsmi=269774827&_hsenc=p2ANqtz--DZCtXhgZ9OkTAB-VZEebBJPL08GCSX1CRtsJm4s7CMaYpZqxtMuqSsCoLk3UBzf5-CRuAm9smBgz7BuvOuG41SUS7_A&utm_content=269774827&utm_source=hs_email)
@@ -300,3 +314,7 @@ Happy integrating and delivering 🙂
 - GitHub actions: [https://github.blog/2021-11-04-10-github-actions-resources-basics-ci-cd/](https://github.blog/2021-11-04-10-github-actions-resources-basics-ci-cd/)
 - Solving ‘permission denied’ on config file: [https://dev.to/aileenr/github-actions-fixing-the-permission-denied-error-for-shell-scripts-4gbl](https://dev.to/aileenr/github-actions-fixing-the-permission-denied-error-for-shell-scripts-4gbl)
 - GitHub CI/CD: [https://resources.github.com/ci-cd/](https://resources.github.com/ci-cd/)
+
+Advertisement
+
+![](https://pixel.wp.com/g.gif?blog=32274278&v=wpcom&tz=2&user_id=0&post=38658&subd=mcuoneclipse&host=mcuoneclipse.com&ref=https%3A%2F%2Fmcuoneclipse.com%2F2025%2F02%2F08%2Foptimizing-embedded-development-with-vs-code-and-devcontainer%2F&rand=0.6943079607222056)

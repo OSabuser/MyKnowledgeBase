@@ -1,38 +1,38 @@
 {
   "main": {
-    "id": "0983fba694eca823",
+    "id": "583c75a8ced7d6a8",
     "type": "split",
     "children": [
       {
-        "id": "69f981c6a06b9d37",
+        "id": "5aae462726703c03",
         "type": "tabs",
         "children": [
           {
-            "id": "2b0b10155c705f3a",
+            "id": "d9fc184921e5ba42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/SOLID FOR EMBEDDED C.md",
+                "file": "akimow_vault/Python/Pytest. Гайд для тех, кто ни разу про него не слышал.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOLID FOR EMBEDDED C"
+              "title": "Pytest. Гайд для тех, кто ни разу про него не слышал"
             }
           },
           {
-            "id": "9a017451edc1be24",
+            "id": "35ea88e5459355c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "akimow_vault/Rust/Обработка ошибок в Rust.md",
+                "file": "akimow_vault/Коктейли.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Обработка ошибок в Rust"
+              "title": "Коктейли"
             }
           }
         ],
@@ -42,27 +42,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "71dcfce48880a37a",
+    "id": "c3b2d9f9a91d6a7a",
     "type": "split",
     "children": [
       {
-        "id": "aaedb53d56c031c3",
+        "id": "964773907f79287f",
         "type": "tabs",
         "children": [
           {
-            "id": "af620568d9853cc2",
+            "id": "d6b493e06acfb2e6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
-            "id": "951f941b5d628f8e",
+            "id": "372ca0c2274bddf9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +80,7 @@
             }
           },
           {
-            "id": "21051403a3571a83",
+            "id": "4644994c8ee90fd6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,23 +93,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 300
   },
   "right": {
-    "id": "d1e04fc1f2b1689c",
+    "id": "7426490f9d117246",
     "type": "split",
     "children": [
       {
-        "id": "d78266bccd68c3dc",
+        "id": "d319f6ba64c9d342",
         "type": "tabs",
         "children": [
           {
-            "id": "60205b84887979aa",
+            "id": "def005332da4474b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "akimow_vault/C/C CODE STYLE RECOMMENDATIONS.md",
+                "file": "akimow_vault/Python/Pytest. Гайд для тех, кто ни разу про него не слышал.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,124 +119,78 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для C CODE STYLE RECOMMENDATIONS"
+              "title": "Обратные ссылки для Pytest. Гайд для тех, кто ни разу про него не слышал"
             }
           },
           {
-            "id": "6fe839eb366e7832",
+            "id": "de746b599b8dc220",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "akimow_vault/C/C CODE STYLE RECOMMENDATIONS.md",
+                "file": "akimow_vault/Python/Pytest. Гайд для тех, кто ни разу про него не слышал.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из C CODE STYLE RECOMMENDATIONS"
+              "title": "Исходящие ссылки из Pytest. Гайд для тех, кто ни разу про него не слышал"
             }
           },
           {
-            "id": "07eec76c63923674",
+            "id": "f7a67c1895af7645",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Теги"
             }
           },
           {
-            "id": "8d06acb3decc9e84",
+            "id": "8be947a659e471e6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "akimow_vault/C/C CODE STYLE RECOMMENDATIONS.md"
+                "file": "akimow_vault/Python/Pytest. Гайд для тех, кто ни разу про него не слышал.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура C CODE STYLE RECOMMENDATIONS"
-            }
-          },
-          {
-            "id": "ee6194a6cfbb951b",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Структура Pytest. Гайд для тех, кто ни разу про него не слышал"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "bases:Создать новую базу": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af620568d9853cc2",
+  "active": "35ea88e5459355c7",
   "lastOpenFiles": [
-    "akimow_vault/Rust/Прекрасные конечные автоматы на Rust.md",
-    "akimow_vault/Rust/Обработка ошибок в Rust.md",
-    "akimow_vault/MCU/Architecture/Design Pattern Catalogue - Embedded Artistry.md",
-    "akimow_vault/C/Polymorphism/Virtual functions in C - Embedded.md",
-    "akimow_vault/C/Polymorphism/Technique Inheritance and Polymorphism in C - Embedded Artistry.md",
-    "akimow_vault/C/Polymorphism/A Practical Guide to Dynamic Polymorphism in C Programming  HackerNoon.md",
-    "akimow_vault/MCU/Using the static keyword in C - EDN.md",
-    "akimow_vault/MCU/5 tips for designing a smart watchdog - EDN.md",
-    "Clippings/SOLID FOR EMBEDDED C.md",
-    "akimow_vault/MCU/Function Pointers/Function pointers, Part 3 State machines - EDN.md",
-    "akimow_vault/MCU/Function Pointers/Function pointers An introduction - EDN.md",
-    "akimow_vault/MCU/5 Tips for using callbacks with interrupts - EDN.md",
-    "akimow_vault/MCU/Function Pointers",
-    "akimow_vault/Text Formats/Markdown/Markdown supported languages for syntax highlighting.md",
-    "akimow_vault/GIT/gitignore file Tutorial.md",
-    "akimow_vault/Clippings/VScode Defining own variables in tasks.json.md",
-    "akimow_vault/Clippings",
-    "akimow_vault/C/The Best and Worst GCC Compiler Flags For Embedded.md",
-    "akimow_vault/C/Polymorphism",
-    "akimow_vault/Text Formats/Markdown/Markdown Tables generator - TablesGenerator.com.md",
-    "akimow_vault/Text Formats/Markdown/Attachments/tux.png",
-    "akimow_vault/Text Formats/Markdown/Attachments/shiprock.jpg",
-    "akimow_vault/Text Formats/Markdown/Attachments/san-juan-mountains.jpg",
-    "akimow_vault/Text Formats/Markdown/Attachments/markdown-mark-white.svg",
-    "akimow_vault/Text Formats/Markdown/Attachments/book-cover.jpg",
-    "akimow_vault/Text Formats/Markdown/de392687-0120-423c-b71a-b8d3f26985e5.yadisk-drop",
-    "akimow_vault/Text Formats/Markdown/Basic syntax.md",
-    "akimow_vault/Text Formats/Markdown/Attachments",
-    "akimow_vault/Text Formats/Markdown/A collection of awesome markdown editors & (pre)viewers.md",
-    "akimow_vault/Text Formats/JSON/Part 4 - Cheatsheet.md",
-    "akimow_vault/Text Formats/JSON/Part 3 - Examples.md",
-    "akimow_vault/Text Formats/JSON/Part 2 - Comments.md",
-    "akimow_vault/Text Formats/JSON/Part 1 - Tutorial.md",
-    "akimow_vault/Text Formats/Markdown",
-    "akimow_vault/Text Formats/JSON",
-    "akimow_vault/Text Formats",
-    "akimow_vault/GIT/Чёрт побери, Git!!.md",
-    "akimow_vault/GIT",
-    "akimow_vault/MCU/Cortex-M7 Cache/Introduction to the ARM® Cortex®-M7 Cache - Part 1 Cache Basics - Sticky Bits - Powered by Feabhas.md",
-    "akimow_vault/MCU/Cortex-M7 Cache/Introduction to the ARM® Cortex®-M7 Cache – Part 3 Optimising software to use cache - Sticky Bits - Powered by Feabhas.md",
-    "akimow_vault/MCU/Cortex-M7 Cache",
-    "akimow_vault/Rust/cheatsheets/rust_ptrs.png",
-    "akimow_vault/Rust/cheatsheets/rust_containers.jpg",
-    "akimow_vault/Hotkeys.webp",
-    "akimow_vault/Linux/SSH/scp_options.png",
-    "akimow_vault/Linux/FFMPEG/Attachments/yiedofhit2lyvcjkrwi_w52hwtc.jpeg"
+    "akimow_vault/Коктейли.md",
+    "akimow_vault/Python/Pytest. Гайд для тех, кто ни разу про него не слышал.md",
+    "akimow_vault/Python",
+    "Без названия"
   ]
 }
