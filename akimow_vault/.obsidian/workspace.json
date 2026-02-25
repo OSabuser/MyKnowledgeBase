@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MCU/How to use register callbacks in STM32.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "How to use register callbacks in STM32"
+              "title": "New tab"
             }
           }
         ]
@@ -165,6 +161,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -177,37 +174,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f87b5c296998a983",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "MACOS/Добавление в PATH для текущего пользователя.md",
-    "MCU/How to use register callbacks in STM32.md",
-    "Clippings",
-    "VScode Defining own variables in tasks.json.md",
-    "MACOS",
-    "Obsidian/Obsidian Типы данных.md",
-    "C/Polymorphism/A Practical Guide to Dynamic Polymorphism in C Programming  HackerNoon.md",
-    "C/Polymorphism/Technique Inheritance and Polymorphism in C - Embedded Artistry.md",
-    "C/Polymorphism",
-    "C/Polymorphism/Virtual functions in C - Embedded.md",
-    "C/A Modern C Development Environment.md",
-    "C/The Best and Worst GCC Compiler Flags For Embedded.md",
-    "CMAKE/Building with CMake Presets.md",
-    "CMAKE/Building with CMake Presets 1.md",
-    "CMAKE/Интересные материалы.md",
-    "CMAKE/3 tips for using CMake with embedded software - Embedded.md",
-    "CMAKE/CMAKE for Embedded systems/CMake Presets.md",
-    "CMAKE/CMAKE for Embedded systems/CMake Part 4 – Windows 10 Host.md",
-    "CMAKE/CMAKE for Embedded systems/CMake Part 0 -Why We Need Build Systems.md",
-    "CMAKE/CMAKE for VS Code.md",
-    "CMAKE/Embedded CMAKE file.md",
+    "DOCKER/Docker for Embedded Systems/Part 3 Cross-Compiling for Cortex-M.md",
     "CMAKE/CMAKE for Embedded systems/CMake Part 1 - The Dark Arts.md",
-    "VSCODE/VScode Defining own variables in tasks.json.md",
-    "Clippings/Integrate with External Tools via Tasks.md",
-    "CMAKE/CMAKE for Embedded systems/CMake Part 2 - Release and Debug builds.md",
-    "GIT/gitignore file Tutorial.md",
+    "DOCKER/CI-CD for Embedded with VS Code, Docker and GitHub Actions.md",
+    "BLE/Bluetooth Low Energy подробный гайд для начинающих.md",
+    "BLE/Bluetooth Low Energy подробный гайд для начинающих. Часть 2.md",
+    "BLE/Bluetooth Low Energy подробный гайд для начинающих. Соединения и сервисы.md",
+    "BLE",
+    "Text Formats/Markdown/Markdown supported languages for syntax highlighting.md",
+    "Text Formats/Markdown/Markdown Tables generator - TablesGenerator.com.md",
+    "Text Formats/Markdown/Basic syntax.md",
+    "Text Formats/Markdown/Attachments/book-cover.jpg",
+    "Text Formats/Markdown/A collection of awesome markdown editors & (pre)viewers.md",
+    "Rust/Практическое руководство по Rust. 34.md",
+    "MCU/Linker script.md",
+    "MCU/Embedded C-C++ Unit Testing Basics.md",
+    "MCU/Embedded GCC Standard Library.md",
+    "MCU/Firmware Hardening и Secure Boot на примере STM32.md",
+    "MCU/5 tips for designing a smart watchdog - EDN.md",
+    "MCU/Интересные репозитории.md",
     "MCU/Architecture/Different Ways of Software Configuration.md",
     "MCU/Architecture/Design Pattern Catalogue - Embedded Artistry.md",
     "MCU/Architecture/Configuration Table Pattern - Embedded Artistry.md",
+    "MCU/Architecture/5 Steps To Designing An Embedded Software Architecture, Step 1 - Embedded.md",
+    "MCU/Architecture/5 Steps To Designing An Embedded Software Architecture, Step 2 - Embedded.md",
+    "MCU/Architecture/5 tips for writing configurable firmware - Embedded.md",
+    "MCU/Using the static keyword in C - EDN.md",
+    "MCU/Bootloader/Интересные статьи.md",
+    "DOCKER/Docker for Embedded Systems/Part 5 Multi-Stage Builds.md",
+    "Linux/SSH/scp_options.png",
+    "Clippings",
+    "MACOS",
+    "C/Polymorphism",
     "GIT",
     "Text Formats/JSON",
     "Text Formats",
@@ -216,14 +216,11 @@
     "Rust/cheatsheets",
     "MCU/Cortex-M7 Cache",
     "MCU/Architecture",
-    "English learning/Verbs-Followed-by-Gerunds-and-Infinitives.pdf",
     "Rust/rust_ptrs.png",
-    "Linux/SSH/scp_options.png",
     "Linux/FFMPEG/Attachments/yiedofhit2lyvcjkrwi_w52hwtc.jpeg",
     "RaspberryPi/Attachments/missing-image.svg",
     "HTML import/Attachments/map.jpg",
     "HTML import/Attachments/tee.png",
-    "HTML import/Attachments/putty.png",
-    "HTML import/Attachments/cropped-cropped-╤И╨░╨┐╨║╨░ 3.jpg"
+    "HTML import/Attachments/putty.png"
   ]
 }
