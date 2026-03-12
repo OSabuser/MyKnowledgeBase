@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Text Formats/Supported Functions · KaTeX.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Supported Functions · KaTeX"
             }
           }
         ]
@@ -174,8 +178,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f87b5c296998a983",
   "lastOpenFiles": [
+    "Text Formats/Supported Functions · KaTeX.md",
     "DOCKER/Docker for Embedded Systems/Part 3 Cross-Compiling for Cortex-M.md",
     "CMAKE/CMAKE for Embedded systems/CMake Part 1 - The Dark Arts.md",
     "DOCKER/CI-CD for Embedded with VS Code, Docker and GitHub Actions.md",
@@ -203,7 +208,6 @@
     "MCU/Architecture/5 tips for writing configurable firmware - Embedded.md",
     "MCU/Using the static keyword in C - EDN.md",
     "MCU/Bootloader/Интересные статьи.md",
-    "DOCKER/Docker for Embedded Systems/Part 5 Multi-Stage Builds.md",
     "Linux/SSH/scp_options.png",
     "Clippings",
     "MACOS",
